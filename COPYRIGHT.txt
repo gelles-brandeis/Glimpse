@@ -1,5 +1,5 @@
-The accompanying files are part of Glimpse.  Except where indicated 
-otherwise, all of these files are 
+The accompanying software files are part of Glimpse.  Except where indicated 
+otherwise, all of these software files are 
 
 Copyright 2014 Jeff Gelles, Brandeis University.    
 
