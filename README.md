@@ -3,4 +3,4 @@ Glimpse
 
 Gelles Labrotory microscopy program
 
-Please see http://gelles-brandeis.github.io/Glimpse for information about this software.
+Please see https://github.com/gelles-brandeis/Glimpse/wiki for information about this software.
