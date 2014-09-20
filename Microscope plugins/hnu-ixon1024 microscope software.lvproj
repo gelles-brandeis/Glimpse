@@ -44,10 +44,11 @@
 		<Item Name="GPI-Join Sequences.vi" Type="VI" URL="../../Glimpse core/GPI-Join Sequences.vi"/>
 		<Item Name="GPI-Movie merge.vi" Type="VI" URL="../../Glimpse core/GPI-Movie merge.vi"/>
 		<Item Name="RR asynchronous autofocus.vi" Type="VI" URL="../RR asynchronous autofocus.vi"/>
-		<Item Name="wdapi1010.dll" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/wdapi1010.dll"/>
-		<Item Name="ATMCD32D.DLL" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/ATMCD32D.DLL"/>
 		<Item Name="GPI-Load-Save settings.vi" Type="VI" URL="../../Glimpse core/GPI-Load-Save settings.vi"/>
 		<Item Name="GLIMPSE Launcher.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Launcher.vi"/>
+		<Item Name="wdapi1010.dll" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/wdapi1010.dll"/>
+		<Item Name="ATMCD32D.DLL" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/ATMCD32D.DLL"/>
+		<Item Name="Microscope software version global.vi" Type="VI" URL="../Microscope software version global.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
@@ -532,7 +533,6 @@
 			<Item Name="GLIMPSE Fetch Image.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Fetch Image.vi"/>
 			<Item Name="Plug-in test Glimpse version.vi" Type="VI" URL="../../Glimpse core/Plug-in test Glimpse version.vi"/>
 			<Item Name="Glimpse set up to read sequence.vi" Type="VI" URL="../../Glimpse core/Glimpse set up to read sequence.vi"/>
-			<Item Name="Microscope software version global.vi" Type="VI" URL="../Microscope software version global.vi"/>
 			<Item Name="Glimpse write video header file.vi" Type="VI" URL="../../Glimpse core/Glimpse write video header file.vi"/>
 			<Item Name="Send image to image display controller.vi" Type="VI" URL="../../Glimpse core/Send image to image display controller.vi"/>
 			<Item Name="Position calling vi to LR 2.vi" Type="VI" URL="../../Glimpse core/Position calling vi to LR 2.vi"/>
