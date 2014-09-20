@@ -548,7 +548,6 @@
 			<Item Name="stage step to next field globals.vi" Type="VI" URL="../Stage/stage step to next field globals.vi"/>
 			<Item Name="stage step to next field.vi" Type="VI" URL="../Stage/stage step to next field.vi"/>
 			<Item Name="RR autofocus calibrate.vi" Type="VI" URL="../RR autofocus calibrate.vi"/>
-			<Item Name="matscript.dll" Type="Document"/>
 			<Item Name="Saved VI controls.ctl" Type="VI" URL="../../Glimpse core/Saved VI controls.ctl"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
