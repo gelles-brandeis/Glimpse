@@ -36,19 +36,18 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Glimpse Image Display Controller.vi" Type="VI" URL="../../Glimpse core/Glimpse Image Display Controller.vi"/>
-		<Item Name="Camera startup.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Camera startup.vi"/>
-		<Item Name="RR autofocus view-calibrate.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/RR autofocus view-calibrate.vi"/>
-		<Item Name="stage controller.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/stage controller.vi"/>
-		<Item Name="Multi-mode acquisition.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Multi-mode acquisition.vi"/>
-		<Item Name="Start!.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Start!.vi"/>
-		<Item Name="Microscope software version global.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Microscope software version global.vi"/>
+		<Item Name="Camera startup.vi" Type="VI" URL="../Camera/Camera startup.vi"/>
+		<Item Name="RR autofocus view-calibrate.vi" Type="VI" URL="../RR autofocus view-calibrate.vi"/>
+		<Item Name="stage controller.vi" Type="VI" URL="../Stage/stage controller.vi"/>
+		<Item Name="Multi-mode acquisition.vi" Type="VI" URL="../Multi-mode acquisition.vi"/>
+		<Item Name="Start!.vi" Type="VI" URL="../Start!.vi"/>
 		<Item Name="GPI-Join Sequences.vi" Type="VI" URL="../../Glimpse core/GPI-Join Sequences.vi"/>
 		<Item Name="GPI-Movie merge.vi" Type="VI" URL="../../Glimpse core/GPI-Movie merge.vi"/>
-		<Item Name="RR asynchronous autofocus.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/RR asynchronous autofocus.vi"/>
+		<Item Name="RR asynchronous autofocus.vi" Type="VI" URL="../RR asynchronous autofocus.vi"/>
 		<Item Name="wdapi1010.dll" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/wdapi1010.dll"/>
 		<Item Name="ATMCD32D.DLL" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/ATMCD32D.DLL"/>
-		<Item Name="GPI-Load-Save settings.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/GPI-Load-Save settings.vi"/>
-		<Item Name="Glimpse Launcher.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Glimpse Launcher.vi"/>
+		<Item Name="GPI-Load-Save settings.vi" Type="VI" URL="../../Glimpse core/GPI-Load-Save settings.vi"/>
+		<Item Name="GLIMPSE Launcher.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Launcher.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
@@ -91,10 +90,6 @@
 				<Item Name="IMAQ WindToolsSelect" Type="VI" URL="/&lt;vilib&gt;/vision/Tools Menu.llb/IMAQ WindToolsSelect"/>
 				<Item Name="IMAQ WindToolsShow" Type="VI" URL="/&lt;vilib&gt;/vision/Tools Menu.llb/IMAQ WindToolsShow"/>
 				<Item Name="IMAQ WindToolsMove" Type="VI" URL="/&lt;vilib&gt;/vision/Tools Menu.llb/IMAQ WindToolsMove"/>
-				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
-				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
-				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
-				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
@@ -140,53 +135,8 @@
 				<Item Name="DAQmx Timing.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing.vi"/>
 				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
 				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="NI_ReportGenerationCore.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_ReportGenerationCore.lvlib"/>
-				<Item Name="IMAQ WindLastEvent" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Display.llb/IMAQ WindLastEvent"/>
-				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
-				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
-				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
-				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
-				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
-				<Item Name="NI_report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_report.lvclass"/>
-				<Item Name="NI_HTML.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/HTML/NI_HTML.lvclass"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="Built App File Layout.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Built App File Layout.vi"/>
-				<Item Name="Generate Report Object Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Generate Report Object Reference.ctl"/>
-				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
-				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
-				<Item Name="IMAQ Overlay Points" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Points"/>
-				<Item Name="IMAQ Copy Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Copy Overlay"/>
-				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
-				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
-				<Item Name="IMAQ WindEraseROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Display.llb/IMAQ WindEraseROI"/>
-				<Item Name="IMAQ DrawText" Type="VI" URL="/&lt;vilib&gt;/vision/Compatibility.llb/IMAQ DrawText"/>
-				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
-				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
-				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
-				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
-				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
-				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
-				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
-				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
-				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
-				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
-				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
-				<Item Name="IMAQ Convert Rectangle to ROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Conversion.llb/IMAQ Convert Rectangle to ROI"/>
-				<Item Name="IMAQ Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Rectangle"/>
-				<Item Name="IMAQ WriteFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files1.llb/IMAQ WriteFile"/>
-				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
-				<Item Name="IMAQ Write TIFF File" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF File"/>
-				<Item Name="IMAQ WindToolsClose" Type="VI" URL="/&lt;vilib&gt;/vision/Tools Menu.llb/IMAQ WindToolsClose"/>
-				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
 				<Item Name="IMAQ Copy" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Copy"/>
-				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
-				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
-				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
-				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="NI_Standard Report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Standard Report/NI_Standard Report.lvclass"/>
 				<Item Name="DAQmx Rollback Channel If Error.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Rollback Channel If Error.vi"/>
 				<Item Name="DAQmx Create AI Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create AI Channel (sub).vi"/>
 				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
@@ -367,6 +317,32 @@
 				<Item Name="DAQmx Create Channel (AI-Velocity-IEPE Sensor).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Velocity-IEPE Sensor).vi"/>
 				<Item Name="DAQmx Create Channel (AI-Strain-Rosette Strain Gage).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Strain-Rosette Strain Gage).vi"/>
 				<Item Name="DAQmx Create Strain Rosette AI Channels (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Strain Rosette AI Channels (sub).vi"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
+				<Item Name="IMAQ AVI Get Filter Names" Type="VI" URL="/&lt;vilib&gt;/vision/Avi2.llb/IMAQ AVI Get Filter Names"/>
+				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
+				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
+				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
+				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
+				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
+				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
+				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
+				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
+				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
+				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
+				<Item Name="IMAQ Write TIFF File" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF File"/>
+				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
+				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
+				<Item Name="IMAQ DrawText" Type="VI" URL="/&lt;vilib&gt;/vision/Compatibility.llb/IMAQ DrawText"/>
+				<Item Name="IMAQ WindToolsClose" Type="VI" URL="/&lt;vilib&gt;/vision/Tools Menu.llb/IMAQ WindToolsClose"/>
+				<Item Name="IMAQ WindLastEvent" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Display.llb/IMAQ WindLastEvent"/>
+				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
+				<Item Name="IMAQ Overlay Points" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Points"/>
+				<Item Name="NI_ReportGenerationCore.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_ReportGenerationCore.lvlib"/>
+				<Item Name="NI_report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_report.lvclass"/>
+				<Item Name="Built App File Layout.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Built App File Layout.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="NI_Standard Report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Standard Report/NI_Standard Report.lvclass"/>
 				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
 				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
 				<Item Name="Write BMP Data To Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data To Buffer.vi"/>
@@ -383,6 +359,7 @@
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
+				<Item Name="NI_HTML.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/HTML/NI_HTML.lvclass"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 				<Item Name="Create Error Clust.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create Error Clust.vi"/>
 				<Item Name="Destroy ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Destroy ActiveX Event Queue.vi"/>
@@ -410,9 +387,31 @@
 				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
-				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
-				<Item Name="IMAQ AVI Get Filter Names" Type="VI" URL="/&lt;vilib&gt;/vision/Avi2.llb/IMAQ AVI Get Filter Names"/>
-				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="IMAQ WriteFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files1.llb/IMAQ WriteFile"/>
+				<Item Name="IMAQ Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Rectangle"/>
+				<Item Name="IMAQ Convert Rectangle to ROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Conversion.llb/IMAQ Convert Rectangle to ROI"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
+				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
+				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
+				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
+				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
+				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
+				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
+				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
+				<Item Name="IMAQ WindEraseROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Display.llb/IMAQ WindEraseROI"/>
+				<Item Name="IMAQ Copy Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Copy Overlay"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="Generate Report Object Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Generate Report Object Reference.ctl"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="su10x Configure Filter Wheel.vi" Type="VI" URL="/&lt;instrlib&gt;/su10x/su10x.llb/su10x Configure Filter Wheel.vi"/>
@@ -473,143 +472,16 @@
 			</Item>
 			<Item Name="Setup acquisition.vi" Type="VI" URL="../ixon camera/Setup acquisition.vi"/>
 			<Item Name="andor globals.vi" Type="VI" URL="../ixon camera/andor globals.vi"/>
-			<Item Name="Wait to use camera.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Wait to use camera.vi"/>
-			<Item Name="camera globals.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/camera globals.vi"/>
-			<Item Name="GLIMPSE Globals.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/GLIMPSE Globals.vi"/>
-			<Item Name="Image to Display event.ctt" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Image to Display event.ctt"/>
-			<Item Name="Move stage command.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Move stage command.ctl"/>
-			<Item Name="GLIMPSE Initialize.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/GLIMPSE Initialize.vi"/>
-			<Item Name="Position calling vi to LR 2.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Position calling vi to LR 2.vi"/>
-			<Item Name="Get environment variable.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Get environment variable.vi"/>
-			<Item Name="Labview Hardware Config file read key.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Labview Hardware Config file read key.vi"/>
-			<Item Name="GLIMPSE Splash Screen.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/GLIMPSE Splash Screen.vi"/>
-			<Item Name="Plug-in test Glimpse version.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Plug-in test Glimpse version.vi"/>
-			<Item Name="GLIMPSE Sequence Player.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/GLIMPSE Sequence Player.vi"/>
-			<Item Name="Header file data.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Header file data.ctl"/>
-			<Item Name="Glimpse error handler.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Glimpse error handler.vi"/>
-			<Item Name="Close caller&apos;s caller.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Close caller&apos;s caller.vi"/>
-			<Item Name="Send image to image display controller.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Send image to image display controller.vi"/>
-			<Item Name="Glimpse set error.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Glimpse set error.vi"/>
-			<Item Name="Glimpse Setup Image Tools" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Glimpse Setup Image Tools"/>
-			<Item Name="Glimpse sequence player compute next frame number.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Glimpse sequence player compute next frame number.vi"/>
-			<Item Name="fit aois.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/fit aois.vi"/>
-			<Item Name="Parameter array.ctt" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Parameter array.ctt"/>
-			<Item Name="Fit type setup.ctt" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Fit type setup.ctt"/>
-			<Item Name="AOI List Globals.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/AOI List Globals.vi"/>
-			<Item Name="Tracking start report.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Tracking start report.vi"/>
-			<Item Name="Change file name extension.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Change file name extension.vi"/>
-			<Item Name="Make 16 to 8 LUT.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Make 16 to 8 LUT.vi"/>
-			<Item Name="GLIMPSE fetch TTB value.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/GLIMPSE fetch TTB value.vi"/>
-			<Item Name="GLIMPSE Get image from disk.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/GLIMPSE Get image from disk.vi"/>
-			<Item Name="GLIMPSE Average fields.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/GLIMPSE Average fields.vi"/>
-			<Item Name="Fit one AOI.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Fit one AOI.vi"/>
-			<Item Name="Extract 16-bit rectangle from image.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Extract 16-bit rectangle from image.vi"/>
-			<Item Name="AOI to optional rectangle.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/AOI to optional rectangle.vi"/>
-			<Item Name="Lev-Mar Fit to encoded 2D gaussian.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Lev-Mar Fit to encoded 2D gaussian.vi"/>
-			<Item Name="Lev-Mar abx with 2D encoded Gaussian.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Lev-Mar abx with 2D encoded Gaussian.vi"/>
-			<Item Name="Encoded 2D gaussian.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Encoded 2D gaussian.vi"/>
-			<Item Name="partial derivative with 2D encoded guassian.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/partial derivative with 2D encoded guassian.vi"/>
-			<Item Name="Glimpse get new coefficients.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Glimpse get new coefficients.vi"/>
-			<Item Name="Lev-Mar xx with 2D encoded Gaussian.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Lev-Mar xx with 2D encoded Gaussian.vi"/>
-			<Item Name="AOI Stats.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/AOI Stats.vi"/>
-			<Item Name="Glimpse display gain-offset old.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Glimpse display gain-offset old.vi"/>
-			<Item Name="Change sequence player data file.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Change sequence player data file.vi"/>
-			<Item Name="GLIMPSE get default acquisition file names.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/GLIMPSE get default acquisition file names.vi"/>
-			<Item Name="Glimpse get users directory names.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Glimpse get users directory names.vi"/>
-			<Item Name="Glimpse set up to read sequence.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Glimpse set up to read sequence.vi"/>
-			<Item Name="GLIMPSE Get N and Y.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/GLIMPSE Get N and Y.vi"/>
-			<Item Name="Multiple AOIs.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Multiple AOIs.vi"/>
-			<Item Name="Redraw AOIs.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Redraw AOIs.vi"/>
-			<Item Name="Save AOI list.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Save AOI list.vi"/>
-			<Item Name="Print AOI images.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Print AOI images.vi"/>
-			<Item Name="Flatten to 8-bit RGB.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Flatten to 8-bit RGB.vi"/>
-			<Item Name="Add AOIs overlay to image.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Add AOIs overlay to image.vi"/>
-			<Item Name="Resize AOI on list.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Resize AOI on list.vi"/>
-			<Item Name="Read AOI list.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Read AOI list.vi"/>
-			<Item Name="Add AOI to list.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Add AOI to list.vi"/>
-			<Item Name="Del AOI from list.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Del AOI from list.vi"/>
-			<Item Name="Open caller&apos;s caller.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Open caller&apos;s caller.vi"/>
-			<Item Name="GLIMPSE Save image.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/GLIMPSE Save image.vi"/>
-			<Item Name="Save IMG.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Save IMG.vi"/>
-			<Item Name="GLIMPSE Sequence Save.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/GLIMPSE Sequence Save.vi"/>
-			<Item Name="Make SEQ.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Make SEQ.vi"/>
-			<Item Name="SEQ Header Save.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/SEQ Header Save.vi"/>
-			<Item Name="Write Whole SEQ.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Write Whole SEQ.vi"/>
-			<Item Name="Write SEQ Frame.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Write SEQ Frame.vi"/>
-			<Item Name="Make TTB.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Make TTB.vi"/>
-			<Item Name="TTB Convert.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/TTB Convert.vi"/>
-			<Item Name="TTB Write.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/TTB Write.vi"/>
-			<Item Name="Save sequence into multiple images.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Save sequence into multiple images.vi"/>
-			<Item Name="Save sequence into movie file.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Save sequence into movie file.vi"/>
-			<Item Name="Write sequence info to MAT file.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Write sequence info to MAT file.vi"/>
-			<Item Name="Convert image to real array.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Convert image to real array.vi"/>
-			<Item Name="GLIMPSE frame skip test.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/GLIMPSE frame skip test.vi"/>
-			<Item Name="Make circle of points.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Make circle of points.vi"/>
-			<Item Name="Make circle bounding rectangle.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Make circle bounding rectangle.vi"/>
-			<Item Name="Glimpse Generate Test Sequence.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Glimpse Generate Test Sequence.vi"/>
-			<Item Name="Sequence files handle.ctt" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Sequence files handle.ctt"/>
-			<Item Name="Open acquisition file for write.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Open acquisition file for write.vi"/>
-			<Item Name="Glimpse fill time table with evenly spaced times.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Glimpse fill time table with evenly spaced times.vi"/>
-			<Item Name="Glimpse write video header file.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Glimpse write video header file.vi"/>
-			<Item Name="Write a frame to the acquisition file.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Write a frame to the acquisition file.vi"/>
-			<Item Name="GLIMPSE Sequence Read.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/GLIMPSE Sequence Read.vi"/>
-			<Item Name="Read SEQ.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Read SEQ.vi"/>
-			<Item Name="SEQ Header Read.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/SEQ Header Read.vi"/>
-			<Item Name="String to Word Integer.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/String to Word Integer.vi"/>
-			<Item Name="Read Whole SEQ.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Read Whole SEQ.vi"/>
-			<Item Name="Read SEQ Frame.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Read SEQ Frame.vi"/>
-			<Item Name="Uncompress SEQ line.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Uncompress SEQ line.vi"/>
-			<Item Name="Two U8s to U16.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Two U8s to U16.vi"/>
-			<Item Name="Last element of U8 array.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Last element of U8 array.vi"/>
-			<Item Name="Read TTB record.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Read TTB record.vi"/>
-			<Item Name="Restore sequence from multiple images.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Restore sequence from multiple images.vi"/>
-			<Item Name="Make sequential file name.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Make sequential file name.vi"/>
-			<Item Name="Restore sequence from stacked tiff.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Restore sequence from stacked tiff.vi"/>
-			<Item Name="GLIMPSE background subtract.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/GLIMPSE background subtract.vi"/>
-			<Item Name="GLIMPSE window average.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/GLIMPSE window average.vi"/>
-			<Item Name="Glimpse delete acquisition directories.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Glimpse delete acquisition directories.vi"/>
-			<Item Name="About Glimpse.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/About Glimpse.vi"/>
-			<Item Name="Glimpse Plugin Handler.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Glimpse Plugin Handler.vi"/>
-			<Item Name="Glimpse plugin list plugins.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Glimpse plugin list plugins.vi"/>
 			<Item Name="Image display gain-offset.vi" Type="VI" URL="../../Glimpse core/Image display gain-offset.vi"/>
-			<Item Name="Autofocus Globals.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Autofocus Globals.vi"/>
-			<Item Name="RR autofocus calibrate.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/RR autofocus calibrate.vi"/>
-			<Item Name="Video acquisition state.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Video acquisition state.ctl"/>
-			<Item Name="stage step to next field.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/stage step to next field.vi"/>
-			<Item Name="Calculate field raster.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Calculate field raster.vi"/>
-			<Item Name="Camera setup acquisition.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Camera setup acquisition.vi"/>
-			<Item Name="Select Acquisition Directory for Write.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Select Acquisition Directory for Write.vi"/>
-			<Item Name="Time lapse wait for next frame.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Time lapse wait for next frame.vi"/>
-			<Item Name="Camera Autofocus.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Camera Autofocus.vi"/>
-			<Item Name="vollath_calculation_focus_algorithm_serge_doug.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/vollath_calculation_focus_algorithm_serge_doug.vi"/>
-			<Item Name="RR autofocus.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/RR autofocus.vi"/>
-			<Item Name="acquire sequence to disk.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/acquire sequence to disk.vi"/>
-			<Item Name="GLIMPSE Fetch Image.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/GLIMPSE Fetch Image.vi"/>
-			<Item Name="Glimpse file parameters.ctt" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Glimpse file parameters.ctt"/>
-			<Item Name="Read sequence info from MAT file.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Read sequence info from MAT file.vi"/>
-			<Item Name="Create linear LUT.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Create linear LUT.vi"/>
-			<Item Name="Glimpse Make Unique Image buffer name.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Glimpse Make Unique Image buffer name.vi"/>
-			<Item Name="command stage controller.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/command stage controller.vi"/>
-			<Item Name="GLIMPSE Get region dimensions.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/GLIMPSE Get region dimensions.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="phidget21.dll" Type="Document" URL="phidget21.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="wait 1 ms.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/wait 1 ms.vi"/>
-			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Atmcd32d.dll" Type="Document" URL="Atmcd32d.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Header2 file data.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Header2 file data.ctl"/>
-			<Item Name="Flow cell controller globals.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Flow cell controller globals.vi"/>
-			<Item Name="stage step to next field globals.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/stage step to next field globals.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="lvanlys.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -623,23 +495,10 @@
 			<Item Name="about movie merge.vi" Type="VI" URL="../../Glimpse core/Plug-ins/movie merge/about movie merge.vi"/>
 			<Item Name="Merge alignment.vi" Type="VI" URL="../../Glimpse core/Plug-ins/movie merge/Merge alignment.vi"/>
 			<Item Name="ATMCD32D.DLL" Type="Document" URL="../ATMCD32D.DLL"/>
-			<Item Name="Saved VI controls.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Saved VI controls.ctl"/>
-			<Item Name="Coerce image size.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Coerce image size.vi"/>
 			<Item Name="GLIMPSE Globals.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Globals.vi"/>
 			<Item Name="Image to Display event.ctt" Type="VI" URL="../../Glimpse core/Image to Display event.ctt"/>
 			<Item Name="Move stage command.ctl" Type="VI" URL="../Stage/Move stage command.ctl"/>
-			<Item Name="Microscope software version global.vi" Type="VI" URL="../Microscope software version global.vi"/>
-			<Item Name="Microscope ID global.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Microscope ID global.vi"/>
-			<Item Name="file number.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/file number.ctl"/>
-			<Item Name="Offset.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Offset.ctl"/>
-			<Item Name="Offset table.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Offset table.ctl"/>
-			<Item Name="HAL Camera specifications globals.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/HAL Camera specifications globals.vi"/>
-			<Item Name="knob global.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/knob global.vi"/>
-			<Item Name="stage globals.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/stage globals.vi"/>
-			<Item Name="Start! globals.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Start! globals.vi"/>
-			<Item Name="Position calling vi to LR 2.vi" Type="VI" URL="../../Glimpse core/Position calling vi to LR 2.vi"/>
 			<Item Name="Glimpse Make Unique Image buffer name.vi" Type="VI" URL="../../Glimpse core/Glimpse Make Unique Image buffer name.vi"/>
-			<Item Name="Send image to image display controller.vi" Type="VI" URL="../../Glimpse core/Send image to image display controller.vi"/>
 			<Item Name="Glimpse set error.vi" Type="VI" URL="../../Glimpse core/Glimpse set error.vi"/>
 			<Item Name="Glimpse error handler.vi" Type="VI" URL="../../Glimpse core/Glimpse error handler.vi"/>
 			<Item Name="GLIMPSE Get region dimensions.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Get region dimensions.vi"/>
@@ -648,22 +507,15 @@
 			<Item Name="Glimpse get users directory names.vi" Type="VI" URL="../../Glimpse core/Glimpse get users directory names.vi"/>
 			<Item Name="Get environment variable.vi" Type="VI" URL="../../Glimpse core/Get environment variable.vi"/>
 			<Item Name="Open acquisition file for write.vi" Type="VI" URL="../../Glimpse core/Open acquisition file for write.vi"/>
-			<Item Name="Plug-in test Glimpse version.vi" Type="VI" URL="../../Glimpse core/Plug-in test Glimpse version.vi"/>
 			<Item Name="Header2 file data.ctl" Type="VI" URL="../../Glimpse core/Header2 file data.ctl"/>
 			<Item Name="Write a frame to the acquisition file.vi" Type="VI" URL="../../Glimpse core/Write a frame to the acquisition file.vi"/>
-			<Item Name="Glimpse write video header file.vi" Type="VI" URL="../../Glimpse core/Glimpse write video header file.vi"/>
 			<Item Name="Header file data.ctl" Type="VI" URL="../../Glimpse core/Header file data.ctl"/>
 			<Item Name="Write sequence info to MAT file.vi" Type="VI" URL="../../Glimpse core/Write sequence info to MAT file.vi"/>
 			<Item Name="Change file name extension.vi" Type="VI" URL="../../Glimpse core/Change file name extension.vi"/>
 			<Item Name="GLIMPSE fetch TTB value.vi" Type="VI" URL="../../Glimpse core/GLIMPSE fetch TTB value.vi"/>
 			<Item Name="Create linear LUT.vi" Type="VI" URL="../../Glimpse core/Create linear LUT.vi"/>
-			<Item Name="Glimpse set up to read sequence.vi" Type="VI" URL="../../Glimpse core/Glimpse set up to read sequence.vi"/>
-			<Item Name="GLIMPSE Fetch Image.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Fetch Image.vi"/>
 			<Item Name="GLIMPSE Get image from disk.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Get image from disk.vi"/>
 			<Item Name="GLIMPSE Average fields.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Average fields.vi"/>
-			<Item Name="Read sequence info from MAT file.vi" Type="VI" URL="../../Glimpse core/Read sequence info from MAT file.vi"/>
-			<Item Name="Frames per axquisition file.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Frames per axquisition file.vi"/>
-			<Item Name="Shutter operate.vi" Type="VI" URL="../Shutter operate.vi"/>
 			<Item Name="Select emission filter.vi" Type="VI" URL="../filter wheel/Select emission filter.vi"/>
 			<Item Name="Glimpse file parameters.ctt" Type="VI" URL="../Camera/Glimpse file parameters.ctt"/>
 			<Item Name="Wait to use camera.vi" Type="VI" URL="../Camera/Wait to use camera.vi"/>
@@ -676,45 +528,106 @@
 			<Item Name="command stage controller.vi" Type="VI" URL="../Stage/command stage controller.vi"/>
 			<Item Name="acquire sequence to disk.vi" Type="VI" URL="../acquire sequence to disk.vi"/>
 			<Item Name="Flow cell controller globals.vi" Type="VI" URL="../fluid handling/Flow cell controller globals.vi"/>
-			<Item Name="Emission filters.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Emission filters.ctl"/>
-			<Item Name="Laser type.ctt" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Laser type.ctt"/>
-			<Item Name="shutters status.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/shutters status.ctl"/>
-			<Item Name="hardware status globals.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/hardware status globals.vi"/>
-			<Item Name="Filter wheel settings globals.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Filter wheel settings globals.vi"/>
-			<Item Name="camera Shutter operate.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/camera Shutter operate.vi"/>
-			<Item Name="shutter port lookup.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/shutter port lookup.vi"/>
-			<Item Name="Select emission filter.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Select emission filter.vi"/>
-			<Item Name="Shutter operate.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Shutter operate.vi"/>
-			<Item Name="andor camera properties.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/andor camera properties.ctl"/>
-			<Item Name="HAL camera stop.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/HAL camera stop.vi"/>
-			<Item Name="ixon error converter.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/ixon error converter.vi"/>
-			<Item Name="ixon get one frame.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/ixon get one frame.vi"/>
-			<Item Name="andor acquisition mode.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/andor acquisition mode.ctl"/>
-			<Item Name="ixon readout settings.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/ixon readout settings.ctl"/>
-			<Item Name="HAL camera parameters important.ctt" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/HAL camera parameters important.ctt"/>
-			<Item Name="HAL camera get one frame.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/HAL camera get one frame.vi"/>
-			<Item Name="HAL camera start acquire.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/HAL camera start acquire.vi"/>
-			<Item Name="image size.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/image size.ctl"/>
-			<Item Name="QPD config globals.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/QPD config globals.vi"/>
-			<Item Name="Quadrant photodiode read.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Quadrant photodiode read.vi"/>
-			<Item Name="ixon setup FT acquisition 2.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/ixon setup FT acquisition 2.vi"/>
-			<Item Name="HAL camera program for acquisition.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/HAL camera program for acquisition.vi"/>
-			<Item Name="camera defaults globals.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/camera defaults globals.vi"/>
-			<Item Name="HAL camera calculate binning.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/HAL camera calculate binning.vi"/>
-			<Item Name="HAL camera cooler on.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/HAL camera cooler on.vi"/>
-			<Item Name="HAL camera set temp.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/HAL camera set temp.vi"/>
-			<Item Name="HAL camera cooler off.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/HAL camera cooler off.vi"/>
-			<Item Name="HAL cooling status.ctt" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/HAL cooling status.ctt"/>
-			<Item Name="HAL camera get temp.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/HAL camera get temp.vi"/>
-			<Item Name="HAL camera properties.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/HAL camera properties.ctl"/>
-			<Item Name="HAL camera info.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/HAL camera info.vi"/>
-			<Item Name="HAL camera quit.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/HAL camera quit.vi"/>
-			<Item Name="HAL camera initialize.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/HAL camera initialize.vi"/>
 			<Item Name="wait 1 ms.vi" Type="VI" URL="../wait 1 ms.vi"/>
-			<Item Name="HAL Stage close.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/HAL Stage close.vi"/>
-			<Item Name="Nano-drive set using NI.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Nano-drive set using NI.vi"/>
-			<Item Name="Nano-drive.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/Nano-drive.vi"/>
-			<Item Name="HAL stage init.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/h-nu ixon1024 microscope software 30.llb/HAL stage init.vi"/>
+			<Item Name="GLIMPSE Fetch Image.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Fetch Image.vi"/>
+			<Item Name="Plug-in test Glimpse version.vi" Type="VI" URL="../../Glimpse core/Plug-in test Glimpse version.vi"/>
+			<Item Name="Glimpse set up to read sequence.vi" Type="VI" URL="../../Glimpse core/Glimpse set up to read sequence.vi"/>
+			<Item Name="Microscope software version global.vi" Type="VI" URL="../Microscope software version global.vi"/>
+			<Item Name="Glimpse write video header file.vi" Type="VI" URL="../../Glimpse core/Glimpse write video header file.vi"/>
+			<Item Name="Send image to image display controller.vi" Type="VI" URL="../../Glimpse core/Send image to image display controller.vi"/>
+			<Item Name="Position calling vi to LR 2.vi" Type="VI" URL="../../Glimpse core/Position calling vi to LR 2.vi"/>
+			<Item Name="Read sequence info from MAT file.vi" Type="VI" URL="../../Glimpse core/Read sequence info from MAT file.vi"/>
+			<Item Name="Shutter operate.vi" Type="VI" URL="../Shutter operate.vi"/>
+			<Item Name="vollath_calculation_focus_algorithm_serge_doug.vi" Type="VI" URL="../vollath_calculation_focus_algorithm_serge_doug.vi"/>
+			<Item Name="AOI to optional rectangle.vi" Type="VI" URL="../../Glimpse core/AOI/AOI to optional rectangle.vi"/>
+			<Item Name="Extract 16-bit rectangle from image.vi" Type="VI" URL="../../Glimpse core/Extract 16-bit rectangle from image.vi"/>
+			<Item Name="Camera Autofocus.vi" Type="VI" URL="../Camera/Camera Autofocus.vi"/>
+			<Item Name="Coerce image size.vi" Type="VI" URL="../Camera/Coerce image size.vi"/>
+			<Item Name="Camera setup acquisition.vi" Type="VI" URL="../Camera/Camera setup acquisition.vi"/>
+			<Item Name="Calculate field raster.vi" Type="VI" URL="../Calculate field raster.vi"/>
+			<Item Name="stage step to next field globals.vi" Type="VI" URL="../Stage/stage step to next field globals.vi"/>
+			<Item Name="stage step to next field.vi" Type="VI" URL="../Stage/stage step to next field.vi"/>
+			<Item Name="RR autofocus calibrate.vi" Type="VI" URL="../RR autofocus calibrate.vi"/>
+			<Item Name="matscript.dll" Type="Document"/>
+			<Item Name="Saved VI controls.ctl" Type="VI" URL="../../Glimpse core/Saved VI controls.ctl"/>
+			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Glimpse plugin list plugins.vi" Type="VI" URL="../../Glimpse core/Glimpse plugin list plugins.vi"/>
+			<Item Name="Glimpse Plugin Handler.vi" Type="VI" URL="../../Glimpse core/Glimpse Plugin Handler.vi"/>
+			<Item Name="About Glimpse.vi" Type="VI" URL="../../Glimpse core/About Glimpse.vi"/>
+			<Item Name="Glimpse delete acquisition directories.vi" Type="VI" URL="../../Glimpse core/Glimpse delete acquisition directories.vi"/>
+			<Item Name="GLIMPSE window average.vi" Type="VI" URL="../../Glimpse core/GLIMPSE window average.vi"/>
+			<Item Name="GLIMPSE background subtract.vi" Type="VI" URL="../../Glimpse core/GLIMPSE background subtract.vi"/>
+			<Item Name="Open caller&apos;s caller.vi" Type="VI" URL="../../Glimpse core/Open caller&apos;s caller.vi"/>
+			<Item Name="AOI List Globals.vi" Type="VI" URL="../../Glimpse core/AOI/AOI List Globals.vi"/>
+			<Item Name="Add AOIs overlay to image.vi" Type="VI" URL="../../Glimpse core/AOI/Add AOIs overlay to image.vi"/>
+			<Item Name="Flatten to 8-bit RGB.vi" Type="VI" URL="../../Glimpse core/Flatten to 8-bit RGB.vi"/>
+			<Item Name="Convert image to real array.vi" Type="VI" URL="../../Glimpse core/Convert image to real array.vi"/>
+			<Item Name="Close caller&apos;s caller.vi" Type="VI" URL="../../Glimpse core/Close caller&apos;s caller.vi"/>
+			<Item Name="Save sequence into movie file.vi" Type="VI" URL="../../Glimpse core/Save sequence into movie file.vi"/>
+			<Item Name="Save sequence into multiple images.vi" Type="VI" URL="../../Glimpse core/Save sequence into multiple images.vi"/>
+			<Item Name="TTB Write.vi" Type="VI" URL="../../Glimpse core/TTB Write.vi"/>
+			<Item Name="TTB Convert.vi" Type="VI" URL="../../Glimpse core/TTB Convert.vi"/>
+			<Item Name="Make TTB.vi" Type="VI" URL="../../Glimpse core/Make TTB.vi"/>
+			<Item Name="Write SEQ Frame.vi" Type="VI" URL="../../Glimpse core/Write SEQ Frame.vi"/>
+			<Item Name="Write Whole SEQ.vi" Type="VI" URL="../../Glimpse core/Write Whole SEQ.vi"/>
+			<Item Name="SEQ Header Save.vi" Type="VI" URL="../../Glimpse core/SEQ Header Save.vi"/>
+			<Item Name="Make SEQ.vi" Type="VI" URL="../../Glimpse core/Make SEQ.vi"/>
+			<Item Name="GLIMPSE Get N and Y.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Get N and Y.vi"/>
+			<Item Name="Change sequence player data file.vi" Type="VI" URL="../../Glimpse core/Change sequence player data file.vi"/>
+			<Item Name="GLIMPSE Sequence Save.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Sequence Save.vi"/>
+			<Item Name="Glimpse fill time table with evenly spaced times.vi" Type="VI" URL="../../Glimpse core/Glimpse fill time table with evenly spaced times.vi"/>
+			<Item Name="Restore sequence from stacked tiff.vi" Type="VI" URL="../../Glimpse core/Restore sequence from stacked tiff.vi"/>
+			<Item Name="Make sequential file name.vi" Type="VI" URL="../../Glimpse core/Make sequential file name.vi"/>
+			<Item Name="Restore sequence from multiple images.vi" Type="VI" URL="../../Glimpse core/Restore sequence from multiple images.vi"/>
+			<Item Name="Read TTB record.vi" Type="VI" URL="../../Glimpse core/Read TTB record.vi"/>
+			<Item Name="Last element of U8 array.vi" Type="VI" URL="../../Glimpse core/Last element of U8 array.vi"/>
+			<Item Name="Two U8s to U16.vi" Type="VI" URL="../../Glimpse core/Two U8s to U16.vi"/>
+			<Item Name="Uncompress SEQ line.vi" Type="VI" URL="../../Glimpse core/Uncompress SEQ line.vi"/>
+			<Item Name="Read SEQ Frame.vi" Type="VI" URL="../../Glimpse core/Read SEQ Frame.vi"/>
+			<Item Name="Read Whole SEQ.vi" Type="VI" URL="../../Glimpse core/Read Whole SEQ.vi"/>
+			<Item Name="String to Word Integer.vi" Type="VI" URL="../../Glimpse core/String to Word Integer.vi"/>
+			<Item Name="SEQ Header Read.vi" Type="VI" URL="../../Glimpse core/SEQ Header Read.vi"/>
+			<Item Name="Read SEQ.vi" Type="VI" URL="../../Glimpse core/Read SEQ.vi"/>
+			<Item Name="GLIMPSE Sequence Read.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Sequence Read.vi"/>
+			<Item Name="Glimpse Generate Test Sequence.vi" Type="VI" URL="../../Glimpse core/Glimpse Generate Test Sequence.vi"/>
+			<Item Name="Make circle bounding rectangle.vi" Type="VI" URL="../../Glimpse core/Make circle bounding rectangle.vi"/>
+			<Item Name="Make circle of points.vi" Type="VI" URL="../../Glimpse core/Make circle of points.vi"/>
+			<Item Name="GLIMPSE frame skip test.vi" Type="VI" URL="../../Glimpse core/GLIMPSE frame skip test.vi"/>
+			<Item Name="Print AOI images.vi" Type="VI" URL="../../Glimpse core/AOI/Print AOI images.vi"/>
+			<Item Name="Save IMG.vi" Type="VI" URL="../../Glimpse core/Save IMG.vi"/>
+			<Item Name="GLIMPSE Save image.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Save image.vi"/>
+			<Item Name="Del AOI from list.vi" Type="VI" URL="../../Glimpse core/AOI/Del AOI from list.vi"/>
+			<Item Name="Add AOI to list.vi" Type="VI" URL="../../Glimpse core/AOI/Add AOI to list.vi"/>
+			<Item Name="Read AOI list.vi" Type="VI" URL="../../Glimpse core/AOI/Read AOI list.vi"/>
+			<Item Name="Resize AOI on list.vi" Type="VI" URL="../../Glimpse core/AOI/Resize AOI on list.vi"/>
+			<Item Name="Save AOI list.vi" Type="VI" URL="../../Glimpse core/AOI/Save AOI list.vi"/>
+			<Item Name="Redraw AOIs.vi" Type="VI" URL="../../Glimpse core/AOI/Redraw AOIs.vi"/>
+			<Item Name="Multiple AOIs.vi" Type="VI" URL="../../Glimpse core/AOI/Multiple AOIs.vi"/>
+			<Item Name="Glimpse display gain-offset old.vi" Type="VI" URL="../../Glimpse core/Glimpse display gain-offset old.vi"/>
+			<Item Name="AOI Stats.vi" Type="VI" URL="../../Glimpse core/AOI Stats.vi"/>
+			<Item Name="Encoded 2D gaussian.vi" Type="VI" URL="../../Glimpse core/AOI/Encoded 2D gaussian.vi"/>
+			<Item Name="Lev-Mar xx with 2D encoded Gaussian.vi" Type="VI" URL="../../Glimpse core/Fitting and tracking/Lev-Mar xx with 2D encoded Gaussian.vi"/>
+			<Item Name="Glimpse get new coefficients.vi" Type="VI" URL="../../Glimpse core/Fitting and tracking/Glimpse get new coefficients.vi"/>
+			<Item Name="partial derivative with 2D encoded guassian.vi" Type="VI" URL="../../Glimpse core/partial derivative with 2D encoded guassian.vi"/>
+			<Item Name="Lev-Mar abx with 2D encoded Gaussian.vi" Type="VI" URL="../../Glimpse core/Fitting and tracking/Lev-Mar abx with 2D encoded Gaussian.vi"/>
+			<Item Name="Lev-Mar Fit to encoded 2D gaussian.vi" Type="VI" URL="../../Glimpse core/Fitting and tracking/Lev-Mar Fit to encoded 2D gaussian.vi"/>
+			<Item Name="Fit one AOI.vi" Type="VI" URL="../../Glimpse core/AOI/Fit one AOI.vi"/>
+			<Item Name="Make 16 to 8 LUT.vi" Type="VI" URL="../../Glimpse core/Make 16 to 8 LUT.vi"/>
+			<Item Name="Parameter array.ctt" Type="VI" URL="../../Glimpse core/Parameter array.ctt"/>
+			<Item Name="Tracking start report.vi" Type="VI" URL="../../Glimpse core/Fitting and tracking/Tracking start report.vi"/>
+			<Item Name="Fit type setup.ctt" Type="VI" URL="../../Glimpse core/AOI/Fit type setup.ctt"/>
+			<Item Name="fit aois.vi" Type="VI" URL="../../Glimpse core/AOI/fit aois.vi"/>
+			<Item Name="Glimpse sequence player compute next frame number.vi" Type="VI" URL="../../Glimpse core/Glimpse sequence player compute next frame number.vi"/>
+			<Item Name="Glimpse Setup Image Tools" Type="VI" URL="../../Glimpse core/Glimpse Setup Image Tools"/>
+			<Item Name="GLIMPSE Sequence Player.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Sequence Player.vi"/>
+			<Item Name="GLIMPSE Splash Screen.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Splash Screen.vi"/>
+			<Item Name="Labview Hardware Config file read key.vi" Type="VI" URL="../../Glimpse core/Labview Hardware Config file read key.vi"/>
+			<Item Name="GLIMPSE Initialize.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Initialize.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="h-nu ixon1024 microscope software LLB" Type="Source Distribution">
@@ -772,7 +685,7 @@
 				<Property Name="Source[14].type" Type="Str">VI</Property>
 				<Property Name="Source[14].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Glimpse Launcher.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GLIMPSE Launcher.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[2].VI.LLBtopLevel" Type="Bool">true</Property>
