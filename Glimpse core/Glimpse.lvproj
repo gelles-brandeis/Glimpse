@@ -235,9 +235,6 @@
 			<Item Name="Encoded 2D gaussian.vi" Type="VI" URL="../AOI/Encoded 2D gaussian.vi"/>
 			<Item Name="partial derivative with 2D encoded guassian.vi" Type="VI" URL="../partial derivative with 2D encoded guassian.vi"/>
 			<Item Name="Glimpse get new coefficients.vi" Type="VI" URL="../Fitting and tracking/Glimpse get new coefficients.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="lvanlys.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Lev-Mar xx with 2D encoded Gaussian.vi" Type="VI" URL="../Fitting and tracking/Lev-Mar xx with 2D encoded Gaussian.vi"/>
 			<Item Name="AOI Stats.vi" Type="VI" URL="../AOI Stats.vi"/>
 			<Item Name="Glimpse display gain-offset old.vi" Type="VI" URL="../Glimpse display gain-offset old.vi"/>
@@ -315,6 +312,7 @@
 			<Item Name="Add overlay to merged image.vi" Type="VI" URL="../Plug-ins/movie merge/Add overlay to merged image.vi"/>
 			<Item Name="Read N single images.vi" Type="VI" URL="../Plug-ins/movie merge/Read N single images.vi"/>
 			<Item Name="GLIMPSE Sequence Player.vi" Type="VI" URL="../GLIMPSE Sequence Player.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Glimpse LLB" Type="Source Distribution">
