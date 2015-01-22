@@ -53,19 +53,19 @@
 		<Item Name="new-h-nu-ixon" Type="Folder">
 			<Item Name="Emission filters.ctl" Type="VI" URL="../new-h-nu-ixon/Emission filters.ctl"/>
 			<Item Name="Filter wheel settings globals.vi" Type="VI" URL="../new-h-nu-ixon/Filter wheel settings globals.vi"/>
-			<Item Name="knob global.vi" Type="VI" URL="../new-h-nu-ixon/knob global.vi"/>
+			<Item Name="knob global.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/New-h-nu microscope software 30-54.llb/knob global.vi"/>
 			<Item Name="Laser type.ctt" Type="VI" URL="../new-h-nu-ixon/Laser type.ctt"/>
-			<Item Name="Microscope ID global.vi" Type="VI" URL="../new-h-nu-ixon/Microscope ID global.vi"/>
+			<Item Name="Microscope ID global.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/New-h-nu microscope software 30-54.llb/Microscope ID global.vi"/>
 			<Item Name="QPD config globals.vi" Type="VI" URL="../new-h-nu-ixon/QPD config globals.vi"/>
 			<Item Name="shutter port lookup.vi" Type="VI" URL="../new-h-nu-ixon/shutter port lookup.vi"/>
-			<Item Name="stage globals.vi" Type="VI" URL="../new-h-nu-ixon/stage globals.vi"/>
-			<Item Name="Start! globals.vi" Type="VI" URL="../new-h-nu-ixon/Start! globals.vi"/>
+			<Item Name="stage globals.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/New-h-nu microscope software 30-54.llb/stage globals.vi"/>
+			<Item Name="Start! globals.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/New-h-nu microscope software 30-54.llb/Start! globals.vi"/>
 		</Item>
 		<Item Name="ixon1024" Type="Folder">
 			<Item Name="andor acquisition mode.ctl" Type="VI" URL="../ixon1024/andor acquisition mode.ctl"/>
 			<Item Name="camera defaults globals.vi" Type="VI" URL="../ixon1024/camera defaults globals.vi"/>
 			<Item Name="HAL camera parameters important.ctt" Type="VI" URL="../ixon1024/HAL camera parameters important.ctt"/>
-			<Item Name="HAL Camera specifications globals.vi" Type="VI" URL="../ixon1024/HAL Camera specifications globals.vi"/>
+			<Item Name="HAL Camera specifications globals.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/New-h-nu microscope software 30-54.llb/HAL Camera specifications globals.vi"/>
 			<Item Name="ixon readout settings.ctl" Type="VI" URL="../ixon1024/ixon readout settings.ctl"/>
 		</Item>
 		<Item Name="phidgets knobs" Type="Folder">
@@ -77,8 +77,8 @@
 		<Item Name="RR autofocus view-calibrate.vi" Type="VI" URL="../RR autofocus view-calibrate.vi"/>
 		<Item Name="stage controller.vi" Type="VI" URL="../Stage/stage controller.vi"/>
 		<Item Name="Multi-mode acquisition.vi" Type="VI" URL="../Multi-mode acquisition.vi"/>
-		<Item Name="Start!.vi" Type="VI" URL="../Start!.vi"/>
-		<Item Name="Microscope software version global.vi" Type="VI" URL="../Microscope software version global.vi"/>
+		<Item Name="Start!.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/New-h-nu microscope software 30-54.llb/Start!.vi"/>
+		<Item Name="Microscope software version global.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/New-h-nu microscope software 30-54.llb/Microscope software version global.vi"/>
 		<Item Name="GPI-Join Sequences.vi" Type="VI" URL="../../Glimpse core/GPI-Join Sequences.vi"/>
 		<Item Name="GPI-Load-Save settings.vi" Type="VI" URL="../../Glimpse core/GPI-Load-Save settings.vi"/>
 		<Item Name="GPI-Movie merge.vi" Type="VI" URL="../../Glimpse core/GPI-Movie merge.vi"/>
@@ -497,9 +497,9 @@
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="GLIMPSE Globals.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Globals.vi"/>
-			<Item Name="Image to Display event.ctt" Type="VI" URL="../../Glimpse core/Image to Display event.ctt"/>
-			<Item Name="Move stage command.ctl" Type="VI" URL="../Stage/Move stage command.ctl"/>
+			<Item Name="GLIMPSE Globals.vi" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/New-h-nu microscope software 30-54.llb/GLIMPSE Globals.vi"/>
+			<Item Name="Image to Display event.ctt" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/New-h-nu microscope software 30-54.llb/Image to Display event.ctt"/>
+			<Item Name="Move stage command.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/New-h-nu microscope software 30-54.llb/Move stage command.ctl"/>
 			<Item Name="Image display gain-offset.vi" Type="VI" URL="../../glimpse core/Image display gain-offset.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -507,9 +507,9 @@
 			<Item Name="phidget21.dll" Type="Document" URL="phidget21.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Offset table.ctl" Type="VI" URL="../../Glimpse core/Seq file v 1/Offset table.ctl"/>
-			<Item Name="Offset.ctl" Type="VI" URL="../../Glimpse core/Seq file v 1/Offset.ctl"/>
-			<Item Name="file number.ctl" Type="VI" URL="../../Glimpse core/Seq file v 1/file number.ctl"/>
+			<Item Name="Offset table.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/New-h-nu microscope software 30-54.llb/Offset table.ctl"/>
+			<Item Name="Offset.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/New-h-nu microscope software 30-54.llb/Offset.ctl"/>
+			<Item Name="file number.ctl" Type="VI" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/New-h-nu microscope software 30-54.llb/file number.ctl"/>
 			<Item Name="Merge text metadata.vi" Type="VI" URL="../../Glimpse core/Merge text metadata.vi"/>
 			<Item Name="ATMCD32D.DLL" Type="Document" URL="ATMCD32D.DLL">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -650,7 +650,17 @@
 			<Item Name="Coerce image size.vi" Type="VI" URL="../Camera/Coerce image size.vi"/>
 			<Item Name="Glimpse file parameters.ctt" Type="VI" URL="../Camera/Glimpse file parameters.ctt"/>
 			<Item Name="Wait to use camera.vi" Type="VI" URL="../Camera/Wait to use camera.vi"/>
-			<Item Name="matscript.dll" Type="Document"/>
+			<Item Name="stage globals.vi" Type="VI" URL="../new-h-nu-ixon/stage globals.vi"/>
+			<Item Name="Move stage command.ctl" Type="VI" URL="../Stage/Move stage command.ctl"/>
+			<Item Name="GLIMPSE Globals.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Globals.vi"/>
+			<Item Name="Offset table.ctl" Type="VI" URL="../../Glimpse core/Seq file v 1/Offset table.ctl"/>
+			<Item Name="Offset.ctl" Type="VI" URL="../../Glimpse core/Seq file v 1/Offset.ctl"/>
+			<Item Name="file number.ctl" Type="VI" URL="../../Glimpse core/Seq file v 1/file number.ctl"/>
+			<Item Name="Image to Display event.ctt" Type="VI" URL="../../Glimpse core/Image to Display event.ctt"/>
+			<Item Name="knob global.vi" Type="VI" URL="../new-h-nu-ixon/knob global.vi"/>
+			<Item Name="Microscope software version global.vi" Type="VI" URL="../Microscope software version global.vi"/>
+			<Item Name="HAL Camera specifications globals.vi" Type="VI" URL="../ixon1024/HAL Camera specifications globals.vi"/>
+			<Item Name="Microscope ID global.vi" Type="VI" URL="../new-h-nu-ixon/Microscope ID global.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="New-h-nu microscope software LLB" Type="Source Distribution">
