@@ -510,7 +510,7 @@
 			<Item Name="Offset table.ctl" Type="VI" URL="../../Glimpse core/Seq file v 1/Offset table.ctl"/>
 			<Item Name="Offset.ctl" Type="VI" URL="../../Glimpse core/Seq file v 1/Offset.ctl"/>
 			<Item Name="file number.ctl" Type="VI" URL="../../Glimpse core/Seq file v 1/file number.ctl"/>
-			<Item Name="Merge text metadata.vi" Type="VI" URL="../../glimpse core/Merge text metadata.vi"/>
+			<Item Name="Merge text metadata.vi" Type="VI" URL="../../Glimpse core/Merge text metadata.vi"/>
 			<Item Name="ATMCD32D.DLL" Type="Document" URL="ATMCD32D.DLL">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -650,6 +650,7 @@
 			<Item Name="Coerce image size.vi" Type="VI" URL="../Camera/Coerce image size.vi"/>
 			<Item Name="Glimpse file parameters.ctt" Type="VI" URL="../Camera/Glimpse file parameters.ctt"/>
 			<Item Name="Wait to use camera.vi" Type="VI" URL="../Camera/Wait to use camera.vi"/>
+			<Item Name="matscript.dll" Type="Document"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="New-h-nu microscope software LLB" Type="Source Distribution">
