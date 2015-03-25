@@ -67,7 +67,7 @@
 			<Item Name="knob driver 3.vi" Type="VI" URL="../phidgets knobs/knob driver 3.vi"/>
 		</Item>
 		<Item Name="GLIMPSE Launcher.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Launcher.vi"/>
-		<Item Name="Glimpse Image Display Controller.vi" Type="VI" URL="../../glimpse core/Glimpse Image Display Controller.vi"/>
+		<Item Name="Glimpse Image Display Controller.vi" Type="VI" URL="../../Glimpse core/Glimpse Image Display Controller.vi"/>
 		<Item Name="Camera startup.vi" Type="VI" URL="../Camera/Camera startup.vi"/>
 		<Item Name="RR autofocus view-calibrate.vi" Type="VI" URL="../RR autofocus view-calibrate.vi"/>
 		<Item Name="stage controller.vi" Type="VI" URL="../Stage/stage controller.vi"/>
@@ -82,6 +82,7 @@
 		<Item Name="wdapi1010.dll" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/wdapi1010.dll"/>
 		<Item Name="Start!.vi" Type="VI" URL="../Start!.vi"/>
 		<Item Name="Microscope software version global.vi" Type="VI" URL="../Microscope software version global.vi"/>
+		<Item Name="Ixon z-stack acquisition.vi" Type="VI" URL="../ixon camera/Ixon z-stack acquisition.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
@@ -492,7 +493,7 @@
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Image display gain-offset.vi" Type="VI" URL="../../glimpse core/Image display gain-offset.vi"/>
+			<Item Name="Image display gain-offset.vi" Type="VI" URL="../../Glimpse core/Image display gain-offset.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -675,7 +676,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/Users/gelles/Documents/Builds/New-h-nu microscope software/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{87D48A77-4131-4195-9DB5-7379846B35E2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5BEB7830-EE53-4D68-8F85-DBDAF003BBDB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/newhnu shutters/shutters activate.vi</Property>
@@ -699,6 +700,11 @@
 				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[13].VI.LLBtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Ixon z-stack acquisition.vi</Property>
+				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[14].type" Type="Str">VI</Property>
+				<Property Name="Source[14].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/stage controller.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -737,7 +743,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/GPI-Join Sequences.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">14</Property>
+				<Property Name="SourceCount" Type="Int">15</Property>
 			</Item>
 			<Item Name="New-h-nu Shutter all shutters EXE" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
