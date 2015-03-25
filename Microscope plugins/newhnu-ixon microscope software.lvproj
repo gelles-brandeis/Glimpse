@@ -14,40 +14,75 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="USB Mad city stage" Type="Folder" URL="../USB Mad city stage">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="USB Mad city stage" Type="Folder">
+			<Item Name="HAL Stage close.vi" Type="VI" URL="../USB Mad city stage/HAL Stage close.vi"/>
+			<Item Name="HAL stage init.vi" Type="VI" URL="../USB Mad city stage/HAL stage init.vi"/>
+			<Item Name="HAL stage specifications globals.vi" Type="VI" URL="../USB Mad city stage/HAL stage specifications globals.vi"/>
+			<Item Name="Nano-drive.vi" Type="VI" URL="../USB Mad city stage/Nano-drive.vi"/>
+			<Item Name="StandardInit.vi" Type="VI" URL="../USB Mad city stage/StandardInit.vi"/>
 		</Item>
-		<Item Name="ixon camera" Type="Folder" URL="../ixon camera">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="ixon camera" Type="Folder">
+			<Item Name="andor camera properties.ctl" Type="VI" URL="../ixon camera/andor camera properties.ctl"/>
+			<Item Name="defunct Setup acquisition.vi" Type="VI" URL="../ixon camera/defunct Setup acquisition.vi"/>
+			<Item Name="Get ixon camera info.vi" Type="VI" URL="../ixon camera/Get ixon camera info.vi"/>
+			<Item Name="HAL camera calculate binning.vi" Type="VI" URL="../ixon camera/HAL camera calculate binning.vi"/>
+			<Item Name="HAL camera cooler off.vi" Type="VI" URL="../ixon camera/HAL camera cooler off.vi"/>
+			<Item Name="HAL camera cooler on.vi" Type="VI" URL="../ixon camera/HAL camera cooler on.vi"/>
+			<Item Name="HAL camera get one frame.vi" Type="VI" URL="../ixon camera/HAL camera get one frame.vi"/>
+			<Item Name="HAL camera get temp.vi" Type="VI" URL="../ixon camera/HAL camera get temp.vi"/>
+			<Item Name="HAL camera info.vi" Type="VI" URL="../ixon camera/HAL camera info.vi"/>
+			<Item Name="HAL camera initialize.vi" Type="VI" URL="../ixon camera/HAL camera initialize.vi"/>
+			<Item Name="HAL camera program for acquisition.vi" Type="VI" URL="../ixon camera/HAL camera program for acquisition.vi"/>
+			<Item Name="HAL camera properties.ctl" Type="VI" URL="../ixon camera/HAL camera properties.ctl"/>
+			<Item Name="HAL camera quit.vi" Type="VI" URL="../ixon camera/HAL camera quit.vi"/>
+			<Item Name="HAL camera set temp.vi" Type="VI" URL="../ixon camera/HAL camera set temp.vi"/>
+			<Item Name="HAL camera start acquire.vi" Type="VI" URL="../ixon camera/HAL camera start acquire.vi"/>
+			<Item Name="HAL camera stop.vi" Type="VI" URL="../ixon camera/HAL camera stop.vi"/>
+			<Item Name="HAL cooling status.ctt" Type="VI" URL="../ixon camera/HAL cooling status.ctt"/>
+			<Item Name="image size.ctl" Type="VI" URL="../ixon camera/image size.ctl"/>
+			<Item Name="ixon error converter.vi" Type="VI" URL="../ixon camera/ixon error converter.vi"/>
+			<Item Name="ixon get one frame.vi" Type="VI" URL="../ixon camera/ixon get one frame.vi"/>
+			<Item Name="ixon setup FT acquisition 2.vi" Type="VI" URL="../ixon camera/ixon setup FT acquisition 2.vi"/>
 		</Item>
-		<Item Name="newhnu shutters" Type="Folder" URL="../newhnu shutters">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="newhnu shutters" Type="Folder">
+			<Item Name="camera Shutter operate.vi" Type="VI" URL="../newhnu shutters/camera Shutter operate.vi"/>
+			<Item Name="hardware status globals.vi" Type="VI" URL="../newhnu shutters/hardware status globals.vi"/>
+			<Item Name="shutters activate.vi" Type="VI" URL="../newhnu shutters/shutters activate.vi"/>
+			<Item Name="shutters status.ctl" Type="VI" URL="../newhnu shutters/shutters status.ctl"/>
 		</Item>
-		<Item Name="new-h-nu-ixon" Type="Folder" URL="../new-h-nu-ixon">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="new-h-nu-ixon" Type="Folder">
+			<Item Name="Emission filters.ctl" Type="VI" URL="../new-h-nu-ixon/Emission filters.ctl"/>
+			<Item Name="Filter wheel settings globals.vi" Type="VI" URL="../new-h-nu-ixon/Filter wheel settings globals.vi"/>
+			<Item Name="Laser type.ctt" Type="VI" URL="../new-h-nu-ixon/Laser type.ctt"/>
+			<Item Name="QPD config globals.vi" Type="VI" URL="../new-h-nu-ixon/QPD config globals.vi"/>
+			<Item Name="shutter port lookup.vi" Type="VI" URL="../new-h-nu-ixon/shutter port lookup.vi"/>
 		</Item>
-		<Item Name="ixon1024" Type="Folder" URL="../ixon1024">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="ixon1024" Type="Folder">
+			<Item Name="andor acquisition mode.ctl" Type="VI" URL="../ixon1024/andor acquisition mode.ctl"/>
+			<Item Name="camera defaults globals.vi" Type="VI" URL="../ixon1024/camera defaults globals.vi"/>
+			<Item Name="HAL camera parameters important.ctt" Type="VI" URL="../ixon1024/HAL camera parameters important.ctt"/>
+			<Item Name="ixon readout settings.ctl" Type="VI" URL="../ixon1024/ixon readout settings.ctl"/>
 		</Item>
-		<Item Name="phidgets knobs" Type="Folder" URL="../phidgets knobs">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="phidgets knobs" Type="Folder">
+			<Item Name="knob driver 3.vi" Type="VI" URL="../phidgets knobs/knob driver 3.vi"/>
 		</Item>
-		<Item Name="wdapi1010.dll" Type="Document" URL="../../../../../../Program Files (x86)/Gelles Lab Software/wdapi1010.dll"/>
-		<Item Name="Madlib.dll" Type="Document" URL="../../../../../../Program Files (x86)/Gelles Lab Software/Madlib.dll"/>
-		<Item Name="ATMCD32D.DLL" Type="Document" URL="../ATMCD32D.DLL"/>
-		<Item Name="GLIMPSE Launcher.vi" Type="VI" URL="../../glimpse core/GLIMPSE Launcher.vi"/>
-		<Item Name="Glimpse Image Display Controller.vi" Type="VI" URL="../../glimpse core/Glimpse Image Display Controller.vi"/>
+		<Item Name="GLIMPSE Launcher.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Launcher.vi"/>
+		<Item Name="Glimpse Image Display Controller.vi" Type="VI" URL="../../Glimpse core/Glimpse Image Display Controller.vi"/>
 		<Item Name="Camera startup.vi" Type="VI" URL="../Camera/Camera startup.vi"/>
 		<Item Name="RR autofocus view-calibrate.vi" Type="VI" URL="../RR autofocus view-calibrate.vi"/>
 		<Item Name="stage controller.vi" Type="VI" URL="../Stage/stage controller.vi"/>
 		<Item Name="Multi-mode acquisition.vi" Type="VI" URL="../Multi-mode acquisition.vi"/>
-		<Item Name="Start!.vi" Type="VI" URL="../Start!.vi"/>
-		<Item Name="Microscope software version global.vi" Type="VI" URL="../Microscope software version global.vi"/>
 		<Item Name="GPI-Join Sequences.vi" Type="VI" URL="../../Glimpse core/GPI-Join Sequences.vi"/>
-		<Item Name="GPI-Load-Save settings.vi" Type="VI" URL="../../glimpse core/GPI-Load-Save settings.vi"/>
+		<Item Name="GPI-Load-Save settings.vi" Type="VI" URL="../../Glimpse core/GPI-Load-Save settings.vi"/>
 		<Item Name="GPI-Movie merge.vi" Type="VI" URL="../../Glimpse core/GPI-Movie merge.vi"/>
 		<Item Name="stage step to next field globals.vi" Type="VI" URL="../Stage/stage step to next field globals.vi"/>
 		<Item Name="RR asynchronous autofocus.vi" Type="VI" URL="../RR asynchronous autofocus.vi"/>
+		<Item Name="Madlib.dll" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/Madlib.dll"/>
+		<Item Name="ATMCD32D.DLL" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/ATMCD32D.DLL"/>
+		<Item Name="wdapi1010.dll" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/wdapi1010.dll"/>
+		<Item Name="Start!.vi" Type="VI" URL="../Start!.vi"/>
+		<Item Name="Microscope software version global.vi" Type="VI" URL="../Microscope software version global.vi"/>
+		<Item Name="Ixon z-stack acquisition.vi" Type="VI" URL="../ixon camera/Ixon z-stack acquisition.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
@@ -90,10 +125,6 @@
 				<Item Name="IMAQ WindToolsSelect" Type="VI" URL="/&lt;vilib&gt;/vision/Tools Menu.llb/IMAQ WindToolsSelect"/>
 				<Item Name="IMAQ WindToolsShow" Type="VI" URL="/&lt;vilib&gt;/vision/Tools Menu.llb/IMAQ WindToolsShow"/>
 				<Item Name="IMAQ WindToolsMove" Type="VI" URL="/&lt;vilib&gt;/vision/Tools Menu.llb/IMAQ WindToolsMove"/>
-				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
-				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
-				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
-				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
 				<Item Name="NI_Vision_Development_Module.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/NI_Vision_Development_Module.lvlib"/>
@@ -139,53 +170,8 @@
 				<Item Name="DAQmx Timing.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/timing.llb/DAQmx Timing.vi"/>
 				<Item Name="DAQmx Read.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read.vi"/>
 				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
-				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="NI_ReportGenerationCore.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_ReportGenerationCore.lvlib"/>
-				<Item Name="IMAQ WindLastEvent" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Display.llb/IMAQ WindLastEvent"/>
-				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
-				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
-				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
-				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
-				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
-				<Item Name="NI_report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_report.lvclass"/>
-				<Item Name="NI_HTML.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/HTML/NI_HTML.lvclass"/>
-				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
-				<Item Name="Built App File Layout.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Built App File Layout.vi"/>
-				<Item Name="Generate Report Object Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Generate Report Object Reference.ctl"/>
-				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
-				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
-				<Item Name="IMAQ Overlay Points" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Points"/>
-				<Item Name="IMAQ Copy Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Copy Overlay"/>
-				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
-				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
-				<Item Name="IMAQ WindEraseROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Display.llb/IMAQ WindEraseROI"/>
-				<Item Name="IMAQ DrawText" Type="VI" URL="/&lt;vilib&gt;/vision/Compatibility.llb/IMAQ DrawText"/>
-				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
-				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
-				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
-				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
-				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
-				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
-				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
-				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
-				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
-				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
-				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
-				<Item Name="IMAQ Convert Rectangle to ROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Conversion.llb/IMAQ Convert Rectangle to ROI"/>
-				<Item Name="IMAQ Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Rectangle"/>
-				<Item Name="IMAQ WriteFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files1.llb/IMAQ WriteFile"/>
-				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
-				<Item Name="IMAQ Write TIFF File" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF File"/>
-				<Item Name="IMAQ WindToolsClose" Type="VI" URL="/&lt;vilib&gt;/vision/Tools Menu.llb/IMAQ WindToolsClose"/>
-				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
 				<Item Name="IMAQ Copy" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Copy"/>
-				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
-				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
-				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
-				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
-				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
-				<Item Name="NI_Standard Report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Standard Report/NI_Standard Report.lvclass"/>
 				<Item Name="DAQmx Rollback Channel If Error.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Rollback Channel If Error.vi"/>
 				<Item Name="DAQmx Create AI Channel (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create AI Channel (sub).vi"/>
 				<Item Name="DAQmx Fill In Error Info.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/miscellaneous.llb/DAQmx Fill In Error Info.vi"/>
@@ -363,6 +349,28 @@
 				<Item Name="DAQmx Read (Counter Pulse Freq 1 Chan 1 Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter Pulse Freq 1 Chan 1 Samp).vi"/>
 				<Item Name="DAQmx Read (Counter Pulse Ticks 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter Pulse Ticks 1Chan 1Samp).vi"/>
 				<Item Name="DAQmx Read (Counter Pulse Time 1Chan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter Pulse Time 1Chan 1Samp).vi"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
+				<Item Name="IMAQ AVI Get Filter Names" Type="VI" URL="/&lt;vilib&gt;/vision/Avi2.llb/IMAQ AVI Get Filter Names"/>
+				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
+				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
+				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
+				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
+				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
+				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
+				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
+				<Item Name="IMAQ Write TIFF File" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF File"/>
+				<Item Name="LV70DateRecToTimeStamp.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/LV70DateRecToTimeStamp.vi"/>
+				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
+				<Item Name="IMAQ DrawText" Type="VI" URL="/&lt;vilib&gt;/vision/Compatibility.llb/IMAQ DrawText"/>
+				<Item Name="IMAQ WindToolsClose" Type="VI" URL="/&lt;vilib&gt;/vision/Tools Menu.llb/IMAQ WindToolsClose"/>
+				<Item Name="IMAQ WindLastEvent" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Display.llb/IMAQ WindLastEvent"/>
+				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
+				<Item Name="IMAQ Overlay Points" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Points"/>
+				<Item Name="NI_ReportGenerationCore.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_ReportGenerationCore.lvlib"/>
+				<Item Name="NI_report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/NI_report.lvclass"/>
+				<Item Name="Built App File Layout.vi" Type="VI" URL="/&lt;vilib&gt;/AppBuilder/Built App File Layout.vi"/>
+				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
+				<Item Name="NI_Standard Report.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Standard Report/NI_Standard Report.lvclass"/>
 				<Item Name="Flip and Pad for Picture Control.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Flip and Pad for Picture Control.vi"/>
 				<Item Name="Calc Long Word Padded Width.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Calc Long Word Padded Width.vi"/>
 				<Item Name="Write BMP Data To Buffer.vi" Type="VI" URL="/&lt;vilib&gt;/picture/bmp.llb/Write BMP Data To Buffer.vi"/>
@@ -379,6 +387,7 @@
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
 				<Item Name="Write JPEG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Write JPEG File.vi"/>
+				<Item Name="NI_HTML.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Utility/NIReport.llb/HTML/NI_HTML.lvclass"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 				<Item Name="Create Error Clust.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Create Error Clust.vi"/>
 				<Item Name="Destroy ActiveX Event Queue.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/ax-events.llb/Destroy ActiveX Event Queue.vi"/>
@@ -406,7 +415,34 @@
 				<Item Name="Escape Characters for HTTP.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Escape Characters for HTTP.vi"/>
 				<Item Name="Path to URL.vi" Type="VI" URL="/&lt;vilib&gt;/printing/PathToURL.llb/Path to URL.vi"/>
 				<Item Name="Generate Temporary File Path.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Generate Temporary File Path.vi"/>
-				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
+				<Item Name="IMAQ WriteFile" Type="VI" URL="/&lt;vilib&gt;/vision/Files1.llb/IMAQ WriteFile"/>
+				<Item Name="IMAQ Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Rectangle"/>
+				<Item Name="IMAQ Convert Rectangle to ROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Conversion.llb/IMAQ Convert Rectangle to ROI"/>
+				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
+				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
+				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
+				<Item Name="Read File+ (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read File+ (string).vi"/>
+				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
+				<Item Name="Read Lines From File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read Lines From File.vi"/>
+				<Item Name="Read From Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (DBL).vi"/>
+				<Item Name="Read From Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (string).vi"/>
+				<Item Name="Read From Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File (I64).vi"/>
+				<Item Name="Read From Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Read From Spreadsheet File.vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="Write To Spreadsheet File (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (I64).vi"/>
+				<Item Name="Write To Spreadsheet File (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (string).vi"/>
+				<Item Name="Write To Spreadsheet File (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File (DBL).vi"/>
+				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
+				<Item Name="IMAQ WindEraseROI" Type="VI" URL="/&lt;vilib&gt;/vision/ROI Display.llb/IMAQ WindEraseROI"/>
+				<Item Name="IMAQ Copy Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Copy Overlay"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
+				<Item Name="Generate Report Object Reference.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/NIReport.llb/Generate Report Object Reference.ctl"/>
+				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
+				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
+				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="Beep.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/Beep.vi"/>
+				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
+				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
@@ -457,155 +493,164 @@
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Setup acquisition.vi" Type="VI" URL="../ixon camera/Setup acquisition.vi"/>
-			<Item Name="andor globals.vi" Type="VI" URL="../ixon camera/andor globals.vi"/>
-			<Item Name="Wait to use camera.vi" Type="VI" URL="../Camera/Wait to use camera.vi"/>
-			<Item Name="Select emission filter.vi" Type="VI" URL="../filter wheel/Select emission filter.vi"/>
-			<Item Name="camera globals.vi" Type="VI" URL="../Camera/camera globals.vi"/>
-			<Item Name="GLIMPSE Globals.vi" Type="VI" URL="../../glimpse core/GLIMPSE Globals.vi"/>
-			<Item Name="Image to Display event.ctt" Type="VI" URL="../../glimpse core/Image to Display event.ctt"/>
-			<Item Name="Move stage command.ctl" Type="VI" URL="../Stage/Move stage command.ctl"/>
-			<Item Name="GLIMPSE Initialize.vi" Type="VI" URL="../../glimpse core/GLIMPSE Initialize.vi"/>
-			<Item Name="Position calling vi to LR 2.vi" Type="VI" URL="../../glimpse core/Position calling vi to LR 2.vi"/>
-			<Item Name="Get environment variable.vi" Type="VI" URL="../../glimpse core/Get environment variable.vi"/>
-			<Item Name="Labview Hardware Config file read key.vi" Type="VI" URL="../../glimpse core/Labview Hardware Config file read key.vi"/>
-			<Item Name="GLIMPSE Splash Screen.vi" Type="VI" URL="../../glimpse core/GLIMPSE Splash Screen.vi"/>
-			<Item Name="Plug-in test Glimpse version.vi" Type="VI" URL="../../glimpse core/Plug-in test Glimpse version.vi"/>
-			<Item Name="GLIMPSE Sequence Player.vi" Type="VI" URL="../../glimpse core/GLIMPSE Sequence Player.vi"/>
-			<Item Name="Header file data.ctl" Type="VI" URL="../../glimpse core/Header file data.ctl"/>
-			<Item Name="Glimpse error handler.vi" Type="VI" URL="../../glimpse core/Glimpse error handler.vi"/>
-			<Item Name="Close caller&apos;s caller.vi" Type="VI" URL="../../glimpse core/Close caller&apos;s caller.vi"/>
-			<Item Name="Send image to image display controller.vi" Type="VI" URL="../../glimpse core/Send image to image display controller.vi"/>
-			<Item Name="Glimpse set error.vi" Type="VI" URL="../../glimpse core/Glimpse set error.vi"/>
-			<Item Name="Glimpse Setup Image Tools" Type="VI" URL="../../glimpse core/Glimpse Setup Image Tools"/>
-			<Item Name="Glimpse sequence player compute next frame number.vi" Type="VI" URL="../../glimpse core/Glimpse sequence player compute next frame number.vi"/>
-			<Item Name="fit aois.vi" Type="VI" URL="../../glimpse core/AOI/fit aois.vi"/>
-			<Item Name="Parameter array.ctt" Type="VI" URL="../../glimpse core/Parameter array.ctt"/>
-			<Item Name="Fit type setup.ctt" Type="VI" URL="../../glimpse core/AOI/Fit type setup.ctt"/>
-			<Item Name="AOI List Globals.vi" Type="VI" URL="../../glimpse core/AOI/AOI List Globals.vi"/>
-			<Item Name="Tracking start report.vi" Type="VI" URL="../../glimpse core/Fitting and tracking/Tracking start report.vi"/>
-			<Item Name="Change file name extension.vi" Type="VI" URL="../../glimpse core/Change file name extension.vi"/>
-			<Item Name="Make 16 to 8 LUT.vi" Type="VI" URL="../../glimpse core/Make 16 to 8 LUT.vi"/>
-			<Item Name="GLIMPSE fetch TTB value.vi" Type="VI" URL="../../glimpse core/GLIMPSE fetch TTB value.vi"/>
-			<Item Name="GLIMPSE Get image from disk.vi" Type="VI" URL="../../glimpse core/GLIMPSE Get image from disk.vi"/>
-			<Item Name="GLIMPSE Average fields.vi" Type="VI" URL="../../glimpse core/GLIMPSE Average fields.vi"/>
-			<Item Name="Fit one AOI.vi" Type="VI" URL="../../glimpse core/AOI/Fit one AOI.vi"/>
-			<Item Name="Extract 16-bit rectangle from image.vi" Type="VI" URL="../../glimpse core/Extract 16-bit rectangle from image.vi"/>
-			<Item Name="AOI to optional rectangle.vi" Type="VI" URL="../../glimpse core/AOI/AOI to optional rectangle.vi"/>
-			<Item Name="Lev-Mar Fit to encoded 2D gaussian.vi" Type="VI" URL="../../glimpse core/Fitting and tracking/Lev-Mar Fit to encoded 2D gaussian.vi"/>
-			<Item Name="Lev-Mar abx with 2D encoded Gaussian.vi" Type="VI" URL="../../glimpse core/Fitting and tracking/Lev-Mar abx with 2D encoded Gaussian.vi"/>
-			<Item Name="Encoded 2D gaussian.vi" Type="VI" URL="../../glimpse core/AOI/Encoded 2D gaussian.vi"/>
-			<Item Name="partial derivative with 2D encoded guassian.vi" Type="VI" URL="../../glimpse core/partial derivative with 2D encoded guassian.vi"/>
-			<Item Name="Glimpse get new coefficients.vi" Type="VI" URL="../../glimpse core/Fitting and tracking/Glimpse get new coefficients.vi"/>
-			<Item Name="Lev-Mar xx with 2D encoded Gaussian.vi" Type="VI" URL="../../glimpse core/Fitting and tracking/Lev-Mar xx with 2D encoded Gaussian.vi"/>
-			<Item Name="AOI Stats.vi" Type="VI" URL="../../glimpse core/AOI Stats.vi"/>
-			<Item Name="Glimpse display gain-offset old.vi" Type="VI" URL="../../glimpse core/Glimpse display gain-offset old.vi"/>
-			<Item Name="Change sequence player data file.vi" Type="VI" URL="../../glimpse core/Change sequence player data file.vi"/>
-			<Item Name="GLIMPSE get default acquisition file names.vi" Type="VI" URL="../../glimpse core/GLIMPSE get default acquisition file names.vi"/>
-			<Item Name="Glimpse get users directory names.vi" Type="VI" URL="../../glimpse core/Glimpse get users directory names.vi"/>
-			<Item Name="Glimpse set up to read sequence.vi" Type="VI" URL="../../glimpse core/Glimpse set up to read sequence.vi"/>
-			<Item Name="GLIMPSE Get N and Y.vi" Type="VI" URL="../../glimpse core/GLIMPSE Get N and Y.vi"/>
-			<Item Name="Multiple AOIs.vi" Type="VI" URL="../../glimpse core/AOI/Multiple AOIs.vi"/>
-			<Item Name="Redraw AOIs.vi" Type="VI" URL="../../glimpse core/AOI/Redraw AOIs.vi"/>
-			<Item Name="Save AOI list.vi" Type="VI" URL="../../glimpse core/AOI/Save AOI list.vi"/>
-			<Item Name="Print AOI images.vi" Type="VI" URL="../../glimpse core/AOI/Print AOI images.vi"/>
-			<Item Name="Flatten to 8-bit RGB.vi" Type="VI" URL="../../glimpse core/Flatten to 8-bit RGB.vi"/>
-			<Item Name="Add AOIs overlay to image.vi" Type="VI" URL="../../glimpse core/AOI/Add AOIs overlay to image.vi"/>
-			<Item Name="Resize AOI on list.vi" Type="VI" URL="../../glimpse core/AOI/Resize AOI on list.vi"/>
-			<Item Name="Read AOI list.vi" Type="VI" URL="../../glimpse core/AOI/Read AOI list.vi"/>
-			<Item Name="Add AOI to list.vi" Type="VI" URL="../../glimpse core/AOI/Add AOI to list.vi"/>
-			<Item Name="Del AOI from list.vi" Type="VI" URL="../../glimpse core/AOI/Del AOI from list.vi"/>
-			<Item Name="Open caller&apos;s caller.vi" Type="VI" URL="../../glimpse core/Open caller&apos;s caller.vi"/>
-			<Item Name="GLIMPSE Save image.vi" Type="VI" URL="../../glimpse core/GLIMPSE Save image.vi"/>
-			<Item Name="Save IMG.vi" Type="VI" URL="../../glimpse core/Save IMG.vi"/>
-			<Item Name="GLIMPSE Sequence Save.vi" Type="VI" URL="../../glimpse core/GLIMPSE Sequence Save.vi"/>
-			<Item Name="Make SEQ.vi" Type="VI" URL="../../glimpse core/Make SEQ.vi"/>
-			<Item Name="SEQ Header Save.vi" Type="VI" URL="../../glimpse core/SEQ Header Save.vi"/>
-			<Item Name="Write Whole SEQ.vi" Type="VI" URL="../../glimpse core/Write Whole SEQ.vi"/>
-			<Item Name="Write SEQ Frame.vi" Type="VI" URL="../../glimpse core/Write SEQ Frame.vi"/>
-			<Item Name="Make TTB.vi" Type="VI" URL="../../glimpse core/Make TTB.vi"/>
-			<Item Name="TTB Convert.vi" Type="VI" URL="../../glimpse core/TTB Convert.vi"/>
-			<Item Name="TTB Write.vi" Type="VI" URL="../../glimpse core/TTB Write.vi"/>
-			<Item Name="Save sequence into multiple images.vi" Type="VI" URL="../../glimpse core/Save sequence into multiple images.vi"/>
-			<Item Name="Save sequence into movie file.vi" Type="VI" URL="../../glimpse core/Save sequence into movie file.vi"/>
-			<Item Name="Write sequence info to MAT file.vi" Type="VI" URL="../../glimpse core/Write sequence info to MAT file.vi"/>
-			<Item Name="Convert image to real array.vi" Type="VI" URL="../../glimpse core/Convert image to real array.vi"/>
-			<Item Name="GLIMPSE frame skip test.vi" Type="VI" URL="../../glimpse core/GLIMPSE frame skip test.vi"/>
-			<Item Name="Make circle of points.vi" Type="VI" URL="../../glimpse core/Make circle of points.vi"/>
-			<Item Name="Make circle bounding rectangle.vi" Type="VI" URL="../../glimpse core/Make circle bounding rectangle.vi"/>
-			<Item Name="Glimpse Generate Test Sequence.vi" Type="VI" URL="../../glimpse core/Glimpse Generate Test Sequence.vi"/>
-			<Item Name="Sequence files handle.ctt" Type="VI" URL="../../glimpse core/Sequence files handle.ctt"/>
-			<Item Name="Open acquisition file for write.vi" Type="VI" URL="../../glimpse core/Open acquisition file for write.vi"/>
-			<Item Name="Glimpse fill time table with evenly spaced times.vi" Type="VI" URL="../../glimpse core/Glimpse fill time table with evenly spaced times.vi"/>
-			<Item Name="Glimpse write video header file.vi" Type="VI" URL="../../glimpse core/Glimpse write video header file.vi"/>
-			<Item Name="Write a frame to the acquisition file.vi" Type="VI" URL="../../glimpse core/Write a frame to the acquisition file.vi"/>
-			<Item Name="GLIMPSE Sequence Read.vi" Type="VI" URL="../../glimpse core/GLIMPSE Sequence Read.vi"/>
-			<Item Name="Read SEQ.vi" Type="VI" URL="../../glimpse core/Read SEQ.vi"/>
-			<Item Name="SEQ Header Read.vi" Type="VI" URL="../../glimpse core/SEQ Header Read.vi"/>
-			<Item Name="String to Word Integer.vi" Type="VI" URL="../../glimpse core/String to Word Integer.vi"/>
-			<Item Name="Read Whole SEQ.vi" Type="VI" URL="../../glimpse core/Read Whole SEQ.vi"/>
-			<Item Name="Read SEQ Frame.vi" Type="VI" URL="../../glimpse core/Read SEQ Frame.vi"/>
-			<Item Name="Uncompress SEQ line.vi" Type="VI" URL="../../glimpse core/Uncompress SEQ line.vi"/>
-			<Item Name="Two U8s to U16.vi" Type="VI" URL="../../glimpse core/Two U8s to U16.vi"/>
-			<Item Name="Last element of U8 array.vi" Type="VI" URL="../../glimpse core/Last element of U8 array.vi"/>
-			<Item Name="Read TTB record.vi" Type="VI" URL="../../glimpse core/Read TTB record.vi"/>
-			<Item Name="Restore sequence from multiple images.vi" Type="VI" URL="../../glimpse core/Restore sequence from multiple images.vi"/>
-			<Item Name="Make sequential file name.vi" Type="VI" URL="../../glimpse core/Make sequential file name.vi"/>
-			<Item Name="Restore sequence from stacked tiff.vi" Type="VI" URL="../../glimpse core/Restore sequence from stacked tiff.vi"/>
-			<Item Name="GLIMPSE background subtract.vi" Type="VI" URL="../../glimpse core/GLIMPSE background subtract.vi"/>
-			<Item Name="GLIMPSE window average.vi" Type="VI" URL="../../glimpse core/GLIMPSE window average.vi"/>
-			<Item Name="Glimpse delete acquisition directories.vi" Type="VI" URL="../../glimpse core/Glimpse delete acquisition directories.vi"/>
-			<Item Name="About Glimpse.vi" Type="VI" URL="../../glimpse core/About Glimpse.vi"/>
-			<Item Name="Glimpse Plugin Handler.vi" Type="VI" URL="../../glimpse core/Glimpse Plugin Handler.vi"/>
-			<Item Name="Glimpse plugin list plugins.vi" Type="VI" URL="../../glimpse core/Glimpse plugin list plugins.vi"/>
-			<Item Name="Image display gain-offset.vi" Type="VI" URL="../../glimpse core/Image display gain-offset.vi"/>
-			<Item Name="Quadrant photodiode read.vi" Type="VI" URL="../PP-NI quad photodiode/Quadrant photodiode read.vi"/>
-			<Item Name="Autofocus Globals.vi" Type="VI" URL="../Autofocus Globals.vi"/>
-			<Item Name="RR autofocus calibrate.vi" Type="VI" URL="../RR autofocus calibrate.vi"/>
-			<Item Name="Video acquisition state.ctl" Type="VI" URL="../../glimpse core/Video acquisition state.ctl"/>
-			<Item Name="stage step to next field.vi" Type="VI" URL="../Stage/stage step to next field.vi"/>
-			<Item Name="Calculate field raster.vi" Type="VI" URL="../Calculate field raster.vi"/>
-			<Item Name="Camera setup acquisition.vi" Type="VI" URL="../Camera/Camera setup acquisition.vi"/>
-			<Item Name="Select Acquisition Directory for Write.vi" Type="VI" URL="../../glimpse core/Select Acquisition Directory for Write.vi"/>
-			<Item Name="Time lapse wait for next frame.vi" Type="VI" URL="../Time lapse wait for next frame.vi"/>
-			<Item Name="Camera Autofocus.vi" Type="VI" URL="../Camera/Camera Autofocus.vi"/>
-			<Item Name="vollath_calculation_focus_algorithm_serge_doug.vi" Type="VI" URL="../vollath_calculation_focus_algorithm_serge_doug.vi"/>
-			<Item Name="RR autofocus.vi" Type="VI" URL="../RR autofocus.vi"/>
-			<Item Name="acquire sequence to disk.vi" Type="VI" URL="../acquire sequence to disk.vi"/>
-			<Item Name="GLIMPSE Fetch Image.vi" Type="VI" URL="../../glimpse core/GLIMPSE Fetch Image.vi"/>
-			<Item Name="Glimpse file parameters.ctt" Type="VI" URL="../Camera/Glimpse file parameters.ctt"/>
-			<Item Name="Shutter operate.vi" Type="VI" URL="../Shutter operate.vi"/>
-			<Item Name="Read sequence info from MAT file.vi" Type="VI" URL="../../glimpse core/Read sequence info from MAT file.vi"/>
-			<Item Name="Create linear LUT.vi" Type="VI" URL="../../glimpse core/Create linear LUT.vi"/>
-			<Item Name="Glimpse Make Unique Image buffer name.vi" Type="VI" URL="../../glimpse core/Glimpse Make Unique Image buffer name.vi"/>
-			<Item Name="command stage controller.vi" Type="VI" URL="../Stage/command stage controller.vi"/>
-			<Item Name="GLIMPSE Get region dimensions.vi" Type="VI" URL="../../glimpse core/GLIMPSE Get region dimensions.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="Image display gain-offset.vi" Type="VI" URL="../../Glimpse core/Image display gain-offset.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="phidget21.dll" Type="Document" URL="phidget21.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Merge text metadata.vi" Type="VI" URL="../../Glimpse core/Merge text metadata.vi"/>
+			<Item Name="ATMCD32D.DLL" Type="Document" URL="ATMCD32D.DLL">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="Display merged still images.vi" Type="VI" URL="../../Glimpse core/Plug-ins/movie merge/Display merged still images.vi"/>
+			<Item Name="Merge images.vi" Type="VI" URL="../../Glimpse core/Plug-ins/movie merge/Merge images.vi"/>
+			<Item Name="Add overlay to merged image.vi" Type="VI" URL="../../Glimpse core/Plug-ins/movie merge/Add overlay to merged image.vi"/>
+			<Item Name="Read N single images.vi" Type="VI" URL="../../Glimpse core/Plug-ins/movie merge/Read N single images.vi"/>
+			<Item Name="Generate merged movie.vi" Type="VI" URL="../../Glimpse core/Plug-ins/movie merge/Generate merged movie.vi"/>
+			<Item Name="about movie merge.vi" Type="VI" URL="../../Glimpse core/Plug-ins/movie merge/about movie merge.vi"/>
+			<Item Name="Merge alignment.vi" Type="VI" URL="../../Glimpse core/Plug-ins/movie merge/Merge alignment.vi"/>
+			<Item Name="Position calling vi to LR 2.vi" Type="VI" URL="../../Glimpse core/Position calling vi to LR 2.vi"/>
+			<Item Name="Glimpse Make Unique Image buffer name.vi" Type="VI" URL="../../Glimpse core/Glimpse Make Unique Image buffer name.vi"/>
+			<Item Name="Send image to image display controller.vi" Type="VI" URL="../../Glimpse core/Send image to image display controller.vi"/>
+			<Item Name="Glimpse set error.vi" Type="VI" URL="../../Glimpse core/Glimpse set error.vi"/>
+			<Item Name="Glimpse error handler.vi" Type="VI" URL="../../Glimpse core/Glimpse error handler.vi"/>
+			<Item Name="GLIMPSE Get region dimensions.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Get region dimensions.vi"/>
+			<Item Name="Sequence files handle.ctt" Type="VI" URL="../../Glimpse core/Sequence files handle.ctt"/>
+			<Item Name="GLIMPSE get default acquisition file names.vi" Type="VI" URL="../../Glimpse core/GLIMPSE get default acquisition file names.vi"/>
+			<Item Name="Glimpse get users directory names.vi" Type="VI" URL="../../Glimpse core/Glimpse get users directory names.vi"/>
+			<Item Name="Get environment variable.vi" Type="VI" URL="../../Glimpse core/Get environment variable.vi"/>
+			<Item Name="Open acquisition file for write.vi" Type="VI" URL="../../Glimpse core/Open acquisition file for write.vi"/>
+			<Item Name="Plug-in test Glimpse version.vi" Type="VI" URL="../../Glimpse core/Plug-in test Glimpse version.vi"/>
+			<Item Name="Header2 file data.ctl" Type="VI" URL="../../Glimpse core/Header2 file data.ctl"/>
+			<Item Name="Write a frame to the acquisition file.vi" Type="VI" URL="../../Glimpse core/Write a frame to the acquisition file.vi"/>
+			<Item Name="Glimpse write video header file.vi" Type="VI" URL="../../Glimpse core/Glimpse write video header file.vi"/>
+			<Item Name="Header file data.ctl" Type="VI" URL="../../Glimpse core/Header file data.ctl"/>
+			<Item Name="Write sequence info to MAT file.vi" Type="VI" URL="../../Glimpse core/Write sequence info to MAT file.vi"/>
+			<Item Name="Change file name extension.vi" Type="VI" URL="../../Glimpse core/Change file name extension.vi"/>
+			<Item Name="GLIMPSE fetch TTB value.vi" Type="VI" URL="../../Glimpse core/GLIMPSE fetch TTB value.vi"/>
+			<Item Name="Create linear LUT.vi" Type="VI" URL="../../Glimpse core/Create linear LUT.vi"/>
+			<Item Name="Frames per axquisition file.vi" Type="VI" URL="../../Glimpse core/Seq file v 1/Frames per axquisition file.vi"/>
+			<Item Name="Glimpse set up to read sequence.vi" Type="VI" URL="../../Glimpse core/Glimpse set up to read sequence.vi"/>
+			<Item Name="GLIMPSE Fetch Image.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Fetch Image.vi"/>
+			<Item Name="GLIMPSE Get image from disk.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Get image from disk.vi"/>
+			<Item Name="GLIMPSE Average fields.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Average fields.vi"/>
+			<Item Name="Read sequence info from MAT file.vi" Type="VI" URL="../../Glimpse core/Read sequence info from MAT file.vi"/>
+			<Item Name="Shutter operate.vi" Type="VI" URL="../Shutter operate.vi"/>
+			<Item Name="Select emission filter.vi" Type="VI" URL="../filter wheel/Select emission filter.vi"/>
+			<Item Name="Select Acquisition Directory for Write.vi" Type="VI" URL="../../Glimpse core/Select Acquisition Directory for Write.vi"/>
+			<Item Name="Video acquisition state.ctl" Type="VI" URL="../../Glimpse core/Video acquisition state.ctl"/>
+			<Item Name="Time lapse wait for next frame.vi" Type="VI" URL="../Time lapse wait for next frame.vi"/>
+			<Item Name="Autofocus Globals.vi" Type="VI" URL="../Autofocus Globals.vi"/>
+			<Item Name="RR autofocus.vi" Type="VI" URL="../RR autofocus.vi"/>
+			<Item Name="Quadrant photodiode read.vi" Type="VI" URL="../PP-NI quad photodiode/Quadrant photodiode read.vi"/>
+			<Item Name="command stage controller.vi" Type="VI" URL="../Stage/command stage controller.vi"/>
+			<Item Name="acquire sequence to disk.vi" Type="VI" URL="../acquire sequence to disk.vi"/>
+			<Item Name="Flow cell controller globals.vi" Type="VI" URL="../fluid handling/Flow cell controller globals.vi"/>
 			<Item Name="Advapi32.dll" Type="Document" URL="Advapi32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Offset table.ctl" Type="VI" URL="../../glimpse core/Seq file v 1/Offset table.ctl"/>
-			<Item Name="Offset.ctl" Type="VI" URL="../../glimpse core/Seq file v 1/Offset.ctl"/>
-			<Item Name="file number.ctl" Type="VI" URL="../../glimpse core/Seq file v 1/file number.ctl"/>
-			<Item Name="Frames per axquisition file.vi" Type="VI" URL="../../glimpse core/Seq file v 1/Frames per axquisition file.vi"/>
+			<Item Name="Glimpse plugin list plugins.vi" Type="VI" URL="../../Glimpse core/Glimpse plugin list plugins.vi"/>
+			<Item Name="Glimpse Plugin Handler.vi" Type="VI" URL="../../Glimpse core/Glimpse Plugin Handler.vi"/>
+			<Item Name="About Glimpse.vi" Type="VI" URL="../../Glimpse core/About Glimpse.vi"/>
+			<Item Name="Glimpse delete acquisition directories.vi" Type="VI" URL="../../Glimpse core/Glimpse delete acquisition directories.vi"/>
+			<Item Name="GLIMPSE window average.vi" Type="VI" URL="../../Glimpse core/GLIMPSE window average.vi"/>
+			<Item Name="GLIMPSE background subtract.vi" Type="VI" URL="../../Glimpse core/GLIMPSE background subtract.vi"/>
+			<Item Name="Open caller&apos;s caller.vi" Type="VI" URL="../../Glimpse core/Open caller&apos;s caller.vi"/>
+			<Item Name="AOI to optional rectangle.vi" Type="VI" URL="../../Glimpse core/AOI/AOI to optional rectangle.vi"/>
+			<Item Name="AOI List Globals.vi" Type="VI" URL="../../Glimpse core/AOI/AOI List Globals.vi"/>
+			<Item Name="Add AOIs overlay to image.vi" Type="VI" URL="../../Glimpse core/AOI/Add AOIs overlay to image.vi"/>
+			<Item Name="Flatten to 8-bit RGB.vi" Type="VI" URL="../../Glimpse core/Flatten to 8-bit RGB.vi"/>
+			<Item Name="Convert image to real array.vi" Type="VI" URL="../../Glimpse core/Convert image to real array.vi"/>
+			<Item Name="Close caller&apos;s caller.vi" Type="VI" URL="../../Glimpse core/Close caller&apos;s caller.vi"/>
+			<Item Name="Save sequence into movie file.vi" Type="VI" URL="../../Glimpse core/Save sequence into movie file.vi"/>
+			<Item Name="Save sequence into multiple images.vi" Type="VI" URL="../../Glimpse core/Save sequence into multiple images.vi"/>
+			<Item Name="TTB Write.vi" Type="VI" URL="../../Glimpse core/TTB Write.vi"/>
+			<Item Name="TTB Convert.vi" Type="VI" URL="../../Glimpse core/TTB Convert.vi"/>
+			<Item Name="Make TTB.vi" Type="VI" URL="../../Glimpse core/Make TTB.vi"/>
+			<Item Name="Write SEQ Frame.vi" Type="VI" URL="../../Glimpse core/Write SEQ Frame.vi"/>
+			<Item Name="Write Whole SEQ.vi" Type="VI" URL="../../Glimpse core/Write Whole SEQ.vi"/>
+			<Item Name="SEQ Header Save.vi" Type="VI" URL="../../Glimpse core/SEQ Header Save.vi"/>
+			<Item Name="Make SEQ.vi" Type="VI" URL="../../Glimpse core/Make SEQ.vi"/>
+			<Item Name="GLIMPSE Get N and Y.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Get N and Y.vi"/>
+			<Item Name="Change sequence player data file.vi" Type="VI" URL="../../Glimpse core/Change sequence player data file.vi"/>
+			<Item Name="GLIMPSE Sequence Save.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Sequence Save.vi"/>
+			<Item Name="Glimpse fill time table with evenly spaced times.vi" Type="VI" URL="../../Glimpse core/Glimpse fill time table with evenly spaced times.vi"/>
+			<Item Name="Restore sequence from stacked tiff.vi" Type="VI" URL="../../Glimpse core/Restore sequence from stacked tiff.vi"/>
+			<Item Name="Make sequential file name.vi" Type="VI" URL="../../Glimpse core/Make sequential file name.vi"/>
+			<Item Name="Restore sequence from multiple images.vi" Type="VI" URL="../../Glimpse core/Restore sequence from multiple images.vi"/>
+			<Item Name="Read TTB record.vi" Type="VI" URL="../../Glimpse core/Read TTB record.vi"/>
+			<Item Name="Last element of U8 array.vi" Type="VI" URL="../../Glimpse core/Last element of U8 array.vi"/>
+			<Item Name="Two U8s to U16.vi" Type="VI" URL="../../Glimpse core/Two U8s to U16.vi"/>
+			<Item Name="Uncompress SEQ line.vi" Type="VI" URL="../../Glimpse core/Uncompress SEQ line.vi"/>
+			<Item Name="Read SEQ Frame.vi" Type="VI" URL="../../Glimpse core/Read SEQ Frame.vi"/>
+			<Item Name="Read Whole SEQ.vi" Type="VI" URL="../../Glimpse core/Read Whole SEQ.vi"/>
+			<Item Name="String to Word Integer.vi" Type="VI" URL="../../Glimpse core/String to Word Integer.vi"/>
+			<Item Name="SEQ Header Read.vi" Type="VI" URL="../../Glimpse core/SEQ Header Read.vi"/>
+			<Item Name="Read SEQ.vi" Type="VI" URL="../../Glimpse core/Read SEQ.vi"/>
+			<Item Name="GLIMPSE Sequence Read.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Sequence Read.vi"/>
+			<Item Name="Glimpse Generate Test Sequence.vi" Type="VI" URL="../../Glimpse core/Glimpse Generate Test Sequence.vi"/>
+			<Item Name="Make circle bounding rectangle.vi" Type="VI" URL="../../Glimpse core/Make circle bounding rectangle.vi"/>
+			<Item Name="Make circle of points.vi" Type="VI" URL="../../Glimpse core/Make circle of points.vi"/>
+			<Item Name="GLIMPSE frame skip test.vi" Type="VI" URL="../../Glimpse core/GLIMPSE frame skip test.vi"/>
+			<Item Name="Print AOI images.vi" Type="VI" URL="../../Glimpse core/AOI/Print AOI images.vi"/>
+			<Item Name="Save IMG.vi" Type="VI" URL="../../Glimpse core/Save IMG.vi"/>
+			<Item Name="GLIMPSE Save image.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Save image.vi"/>
+			<Item Name="Del AOI from list.vi" Type="VI" URL="../../Glimpse core/AOI/Del AOI from list.vi"/>
+			<Item Name="Add AOI to list.vi" Type="VI" URL="../../Glimpse core/AOI/Add AOI to list.vi"/>
+			<Item Name="Read AOI list.vi" Type="VI" URL="../../Glimpse core/AOI/Read AOI list.vi"/>
+			<Item Name="Resize AOI on list.vi" Type="VI" URL="../../Glimpse core/AOI/Resize AOI on list.vi"/>
+			<Item Name="Save AOI list.vi" Type="VI" URL="../../Glimpse core/AOI/Save AOI list.vi"/>
+			<Item Name="Redraw AOIs.vi" Type="VI" URL="../../Glimpse core/AOI/Redraw AOIs.vi"/>
+			<Item Name="Multiple AOIs.vi" Type="VI" URL="../../Glimpse core/AOI/Multiple AOIs.vi"/>
+			<Item Name="Glimpse display gain-offset old.vi" Type="VI" URL="../../Glimpse core/Glimpse display gain-offset old.vi"/>
+			<Item Name="Extract 16-bit rectangle from image.vi" Type="VI" URL="../../Glimpse core/Extract 16-bit rectangle from image.vi"/>
+			<Item Name="AOI Stats.vi" Type="VI" URL="../../Glimpse core/AOI Stats.vi"/>
+			<Item Name="Encoded 2D gaussian.vi" Type="VI" URL="../../Glimpse core/AOI/Encoded 2D gaussian.vi"/>
+			<Item Name="Lev-Mar xx with 2D encoded Gaussian.vi" Type="VI" URL="../../Glimpse core/Fitting and tracking/Lev-Mar xx with 2D encoded Gaussian.vi"/>
+			<Item Name="Glimpse get new coefficients.vi" Type="VI" URL="../../Glimpse core/Fitting and tracking/Glimpse get new coefficients.vi"/>
+			<Item Name="partial derivative with 2D encoded guassian.vi" Type="VI" URL="../../Glimpse core/partial derivative with 2D encoded guassian.vi"/>
+			<Item Name="Lev-Mar abx with 2D encoded Gaussian.vi" Type="VI" URL="../../Glimpse core/Fitting and tracking/Lev-Mar abx with 2D encoded Gaussian.vi"/>
+			<Item Name="Lev-Mar Fit to encoded 2D gaussian.vi" Type="VI" URL="../../Glimpse core/Fitting and tracking/Lev-Mar Fit to encoded 2D gaussian.vi"/>
+			<Item Name="Fit one AOI.vi" Type="VI" URL="../../Glimpse core/AOI/Fit one AOI.vi"/>
+			<Item Name="Make 16 to 8 LUT.vi" Type="VI" URL="../../Glimpse core/Make 16 to 8 LUT.vi"/>
+			<Item Name="Parameter array.ctt" Type="VI" URL="../../Glimpse core/Parameter array.ctt"/>
+			<Item Name="Tracking start report.vi" Type="VI" URL="../../Glimpse core/Fitting and tracking/Tracking start report.vi"/>
+			<Item Name="Fit type setup.ctt" Type="VI" URL="../../Glimpse core/AOI/Fit type setup.ctt"/>
+			<Item Name="fit aois.vi" Type="VI" URL="../../Glimpse core/AOI/fit aois.vi"/>
+			<Item Name="Glimpse sequence player compute next frame number.vi" Type="VI" URL="../../Glimpse core/Glimpse sequence player compute next frame number.vi"/>
+			<Item Name="Glimpse Setup Image Tools" Type="VI" URL="../../Glimpse core/Glimpse Setup Image Tools"/>
+			<Item Name="GLIMPSE Sequence Player.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Sequence Player.vi"/>
+			<Item Name="GLIMPSE Splash Screen.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Splash Screen.vi"/>
+			<Item Name="Labview Hardware Config file read key.vi" Type="VI" URL="../../Glimpse core/Labview Hardware Config file read key.vi"/>
+			<Item Name="GLIMPSE Initialize.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Initialize.vi"/>
+			<Item Name="vollath_calculation_focus_algorithm_serge_doug.vi" Type="VI" URL="../vollath_calculation_focus_algorithm_serge_doug.vi"/>
+			<Item Name="Calculate field raster.vi" Type="VI" URL="../Calculate field raster.vi"/>
+			<Item Name="stage step to next field.vi" Type="VI" URL="../Stage/stage step to next field.vi"/>
+			<Item Name="RR autofocus calibrate.vi" Type="VI" URL="../RR autofocus calibrate.vi"/>
+			<Item Name="Saved VI controls.ctl" Type="VI" URL="../../Glimpse core/Saved VI controls.ctl"/>
+			<Item Name="Camera Autofocus.vi" Type="VI" URL="../Camera/Camera Autofocus.vi"/>
+			<Item Name="camera globals.vi" Type="VI" URL="../Camera/camera globals.vi"/>
+			<Item Name="Camera setup acquisition.vi" Type="VI" URL="../Camera/Camera setup acquisition.vi"/>
 			<Item Name="Coerce image size.vi" Type="VI" URL="../Camera/Coerce image size.vi"/>
-			<Item Name="Display merged still images.vi" Type="VI" URL="../../Glimpse core/Display merged still images.vi"/>
-			<Item Name="Generate merged movie.vi" Type="VI" URL="../../Glimpse core/Generate merged movie.vi"/>
-			<Item Name="about movie merge.vi" Type="VI" URL="../../Glimpse core/about movie merge.vi"/>
-			<Item Name="Merge alignment.vi" Type="VI" URL="../../Glimpse core/Merge alignment.vi"/>
-			<Item Name="Header2 file data.ctl" Type="VI" URL="../../glimpse core/Header2 file data.ctl"/>
-			<Item Name="Flow cell controller globals.vi" Type="VI" URL="../fluid handling/Flow cell controller globals.vi"/>
-			<Item Name="Saved VI controls.ctl" Type="VI" URL="../../glimpse core/Saved VI controls.ctl"/>
-			<Item Name="Merge text metadata.vi" Type="VI" URL="../../glimpse core/Merge text metadata.vi"/>
+			<Item Name="Glimpse file parameters.ctt" Type="VI" URL="../Camera/Glimpse file parameters.ctt"/>
+			<Item Name="Wait to use camera.vi" Type="VI" URL="../Camera/Wait to use camera.vi"/>
+			<Item Name="Move stage command.ctl" Type="VI" URL="../Stage/Move stage command.ctl"/>
+			<Item Name="GLIMPSE Globals.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Globals.vi"/>
+			<Item Name="Offset table.ctl" Type="VI" URL="../../Glimpse core/Seq file v 1/Offset table.ctl"/>
+			<Item Name="Offset.ctl" Type="VI" URL="../../Glimpse core/Seq file v 1/Offset.ctl"/>
+			<Item Name="file number.ctl" Type="VI" URL="../../Glimpse core/Seq file v 1/file number.ctl"/>
+			<Item Name="Image to Display event.ctt" Type="VI" URL="../../Glimpse core/Image to Display event.ctt"/>
+			<Item Name="knob global.vi" Type="VI" URL="../new-h-nu-ixon/knob global.vi"/>
+			<Item Name="Microscope ID global.vi" Type="VI" URL="../new-h-nu-ixon/Microscope ID global.vi"/>
+			<Item Name="stage globals.vi" Type="VI" URL="../new-h-nu-ixon/stage globals.vi"/>
+			<Item Name="Start! globals.vi" Type="VI" URL="../new-h-nu-ixon/Start! globals.vi"/>
+			<Item Name="HAL Camera specifications globals.vi" Type="VI" URL="../ixon1024/HAL Camera specifications globals.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="New-h-nu microscope software LLB" Type="Source Distribution">
@@ -621,86 +666,84 @@
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/new-h-nu microscope software.llb</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/gelles/Documents/Builds/New-h-nu microscope software.llb</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{92E59B46-02FD-4A5C-8002-472F13010BD0}</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/new-h-nu microscope software.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/gelles/Documents/Builds/New-h-nu microscope software.llb</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/New-h-nu microscope software/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/gelles/Documents/Builds/New-h-nu microscope software/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{07E81A0E-5F80-49C3-A378-F97655BAC178}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5BEB7830-EE53-4D68-8F85-DBDAF003BBDB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/newhnu shutters/shutters activate.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Start!.vi</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/GPI-Load-Save settings.vi</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
-				<Property Name="Source[10].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/phidgets knobs/knob driver 3.vi</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/GPI-Movie merge.vi</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
-				<Property Name="Source[11].VI.LLBtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">1</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/ATMCD32D.DLL</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/RR asynchronous autofocus.vi</Property>
+				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[12].type" Type="Str">VI</Property>
+				<Property Name="Source[12].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/GPI-Join Sequences.vi</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Start!.vi</Property>
 				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
+				<Property Name="Source[13].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/GPI-Load-Save settings.vi</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Ixon z-stack acquisition.vi</Property>
 				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
-				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[15].itemID" Type="Ref">/My Computer/GPI-Movie merge.vi</Property>
-				<Property Name="Source[15].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[15].type" Type="Str">VI</Property>
-				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref">/My Computer/RR asynchronous autofocus.vi</Property>
-				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[16].type" Type="Str">VI</Property>
-				<Property Name="Source[16].VI.LLBtopLevel" Type="Bool">true</Property>
+				<Property Name="Source[14].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/stage controller.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[2].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/wdapi1010.dll</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GLIMPSE Launcher.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="Source[3].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Madlib.dll</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Glimpse Image Display Controller.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/GLIMPSE Launcher.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Camera startup.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[5].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Glimpse Image Display Controller.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/RR autofocus view-calibrate.vi</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
+				<Property Name="Source[6].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Camera startup.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Multi-mode acquisition.vi</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[7].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/RR autofocus view-calibrate.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/phidgets knobs/knob driver 3.vi</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[8].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Multi-mode acquisition.vi</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/GPI-Join Sequences.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="Source[9].VI.LLBtopLevel" Type="Bool">true</Property>
-				<Property Name="SourceCount" Type="Int">17</Property>
+				<Property Name="SourceCount" Type="Int">15</Property>
 			</Item>
 			<Item Name="New-h-nu Shutter all shutters EXE" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -721,11 +764,11 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/New-h-nu Shutter all shutters EXE/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/newhnu shutters/Shutter all shutters.ico</Property>
+				<Property Name="Exe_iconItemID" Type="Ref"></Property>
 				<Property Name="Source[0].itemID" Type="Str">{46E38FF7-5896-4115-802A-C5EACE3DE46B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/newhnu shutters/shutter all shutters.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
