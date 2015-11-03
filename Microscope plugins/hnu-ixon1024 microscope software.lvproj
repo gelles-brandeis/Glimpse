@@ -471,8 +471,6 @@
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Setup acquisition.vi" Type="VI" URL="../ixon camera/Setup acquisition.vi"/>
-			<Item Name="andor globals.vi" Type="VI" URL="../ixon camera/andor globals.vi"/>
 			<Item Name="Image display gain-offset.vi" Type="VI" URL="../../Glimpse core/Image display gain-offset.vi"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -627,6 +625,7 @@
 			<Item Name="GLIMPSE Splash Screen.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Splash Screen.vi"/>
 			<Item Name="Labview Hardware Config file read key.vi" Type="VI" URL="../../Glimpse core/Labview Hardware Config file read key.vi"/>
 			<Item Name="GLIMPSE Initialize.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Initialize.vi"/>
+			<Item Name="matscript.dll" Type="Document"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="h-nu ixon1024 microscope software LLB" Type="Source Distribution">
