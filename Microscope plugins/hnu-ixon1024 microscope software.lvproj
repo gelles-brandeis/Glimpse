@@ -625,7 +625,6 @@
 			<Item Name="GLIMPSE Splash Screen.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Splash Screen.vi"/>
 			<Item Name="Labview Hardware Config file read key.vi" Type="VI" URL="../../Glimpse core/Labview Hardware Config file read key.vi"/>
 			<Item Name="GLIMPSE Initialize.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Initialize.vi"/>
-			<Item Name="matscript.dll" Type="Document"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="h-nu ixon1024 microscope software LLB" Type="Source Distribution">
