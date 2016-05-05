@@ -49,6 +49,7 @@
 		<Item Name="wdapi1010.dll" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/wdapi1010.dll"/>
 		<Item Name="ATMCD32D.DLL" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/ATMCD32D.DLL"/>
 		<Item Name="Microscope software version global.vi" Type="VI" URL="../Microscope software version global.vi"/>
+		<Item Name="shutter timing test.vi" Type="VI" URL="../../../../../Desktop/shutter timing test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
