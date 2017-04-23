@@ -633,6 +633,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="andor camera properties.ctl" Type="VI" URL="../ixon camera/andor camera properties.ctl"/>
+			<Item Name="matscript.dll" Type="Document"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="h-nu ixon1024 microscope software LLB" Type="Source Distribution">
