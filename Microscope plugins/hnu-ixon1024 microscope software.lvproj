@@ -47,7 +47,6 @@
 		<Item Name="GPI-Load-Save settings.vi" Type="VI" URL="../../Glimpse core/GPI-Load-Save settings.vi"/>
 		<Item Name="GLIMPSE Launcher.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Launcher.vi"/>
 		<Item Name="wdapi1010.dll" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/wdapi1010.dll"/>
-		<Item Name="ATMCD32D.DLL" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/ATMCD32D.DLL"/>
 		<Item Name="Microscope software version global.vi" Type="VI" URL="../Microscope software version global.vi"/>
 		<Item Name="shutter timing test.vi" Type="VI" URL="../../../../../Desktop/shutter timing test.vi"/>
 		<Item Name="GetAvailableCameras.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetAvailableCameras.vi"/>
@@ -473,6 +472,8 @@
 				<Item Name="Add ECO For DLL.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Add ECO For DLL.vi"/>
 				<Item Name="Error Code Enum typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Error Code Enum typedef.ctl"/>
 				<Item Name="U32 Array To AndorCapabilities.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/U32 Array To AndorCapabilities.vi"/>
+				<Item Name="GetCameraHandle.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetCameraHandle.vi"/>
+				<Item Name="SetCurrentCamera.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetCurrentCamera.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
