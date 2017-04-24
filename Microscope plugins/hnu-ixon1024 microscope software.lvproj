@@ -50,6 +50,8 @@
 		<Item Name="Microscope software version global.vi" Type="VI" URL="../Microscope software version global.vi"/>
 		<Item Name="shutter timing test.vi" Type="VI" URL="../../../../../Desktop/shutter timing test.vi"/>
 		<Item Name="GetAvailableCameras.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetAvailableCameras.vi"/>
+		<Item Name="SetShutter.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetShutter.vi"/>
+		<Item Name="IsInternalMechanicalShutter.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/IsInternalMechanicalShutter.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
@@ -474,6 +476,8 @@
 				<Item Name="U32 Array To AndorCapabilities.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/U32 Array To AndorCapabilities.vi"/>
 				<Item Name="GetCameraHandle.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetCameraHandle.vi"/>
 				<Item Name="SetCurrentCamera.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetCurrentCamera.vi"/>
+				<Item Name="Shutter_type typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Shutter_type typedef.ctl"/>
+				<Item Name="Shutter_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Shutter_mode typedef.ctl"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
