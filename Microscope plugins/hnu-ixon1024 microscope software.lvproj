@@ -478,6 +478,16 @@
 				<Item Name="SetCurrentCamera.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetCurrentCamera.vi"/>
 				<Item Name="Shutter_type typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Shutter_type typedef.ctl"/>
 				<Item Name="Shutter_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Shutter_mode typedef.ctl"/>
+				<Item Name="Error Cluster To Error Description.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Error Cluster To Error Description.vi"/>
+				<Item Name="Subtract ECO For LabVIEW.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Subtract ECO For LabVIEW.vi"/>
+				<Item Name="U32 To Error Code Enum.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/U32 To Error Code Enum.vi"/>
+				<Item Name="Error Code Enum To String.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Error Code Enum To String.vi"/>
+				<Item Name="Error Source To Function Enum.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Error Source To Function Enum.vi"/>
+				<Item Name="Function Enum typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Function Enum typedef.ctl"/>
+				<Item Name="I32 To Function Enum.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/I32 To Function Enum.vi"/>
+				<Item Name="Function Enum And Error Code Enum To Error Description.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Function Enum And Error Code Enum To Error Description.vi"/>
+				<Item Name="Function Error Descriptions global.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Function Error Descriptions global.vi"/>
+				<Item Name="Function Error Description Cluster typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Function Error Description Cluster typedef.ctl"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -638,7 +648,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="andor camera properties.ctl" Type="VI" URL="../ixon camera/andor camera properties.ctl"/>
-			<Item Name="matscript.dll" Type="Document"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="h-nu ixon1024 microscope software LLB" Type="Source Distribution">
