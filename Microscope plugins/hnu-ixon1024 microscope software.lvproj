@@ -35,23 +35,20 @@
 		<Item Name="ixon1024" Type="Folder" URL="../ixon1024">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Glimpse Image Display Controller.vi" Type="VI" URL="../../Glimpse core/Glimpse Image Display Controller.vi"/>
 		<Item Name="Camera startup.vi" Type="VI" URL="../Camera/Camera startup.vi"/>
+		<Item Name="Glimpse Image Display Controller.vi" Type="VI" URL="../../Glimpse core/Glimpse Image Display Controller.vi"/>
+		<Item Name="GLIMPSE Launcher.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Launcher.vi"/>
+		<Item Name="Multi-mode acquisition.vi" Type="VI" URL="../Multi-mode acquisition.vi"/>
+		<Item Name="RR asynchronous autofocus.vi" Type="VI" URL="../RR asynchronous autofocus.vi"/>
 		<Item Name="RR autofocus view-calibrate.vi" Type="VI" URL="../RR autofocus view-calibrate.vi"/>
 		<Item Name="stage controller.vi" Type="VI" URL="../Stage/stage controller.vi"/>
-		<Item Name="Multi-mode acquisition.vi" Type="VI" URL="../Multi-mode acquisition.vi"/>
 		<Item Name="Start!.vi" Type="VI" URL="../Start!.vi"/>
 		<Item Name="GPI-Join Sequences.vi" Type="VI" URL="../../Glimpse core/GPI-Join Sequences.vi"/>
-		<Item Name="GPI-Movie merge.vi" Type="VI" URL="../../Glimpse core/GPI-Movie merge.vi"/>
-		<Item Name="RR asynchronous autofocus.vi" Type="VI" URL="../RR asynchronous autofocus.vi"/>
 		<Item Name="GPI-Load-Save settings.vi" Type="VI" URL="../../Glimpse core/GPI-Load-Save settings.vi"/>
-		<Item Name="GLIMPSE Launcher.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Launcher.vi"/>
+		<Item Name="GPI-Movie merge.vi" Type="VI" URL="../../Glimpse core/GPI-Movie merge.vi"/>
 		<Item Name="wdapi1010.dll" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/wdapi1010.dll"/>
 		<Item Name="Microscope software version global.vi" Type="VI" URL="../Microscope software version global.vi"/>
 		<Item Name="shutter timing test.vi" Type="VI" URL="../../../../../Desktop/shutter timing test.vi"/>
-		<Item Name="GetAvailableCameras.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetAvailableCameras.vi"/>
-		<Item Name="SetShutter.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetShutter.vi"/>
-		<Item Name="IsInternalMechanicalShutter.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/IsInternalMechanicalShutter.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
@@ -488,6 +485,29 @@
 				<Item Name="Function Enum And Error Code Enum To Error Description.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Function Enum And Error Code Enum To Error Description.vi"/>
 				<Item Name="Function Error Descriptions global.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Function Error Descriptions global.vi"/>
 				<Item Name="Function Error Description Cluster typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Function Error Description Cluster typedef.ctl"/>
+				<Item Name="SetBaselineClamp.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetBaselineClamp.vi"/>
+				<Item Name="SetBaselineOffset.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetBaselineOffset.vi"/>
+				<Item Name="IsInternalMechanicalShutter.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/IsInternalMechanicalShutter.vi"/>
+				<Item Name="SetShutter.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetShutter.vi"/>
+				<Item Name="GetAvailableCameras.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetAvailableCameras.vi"/>
+				<Item Name="AcquisitionMode_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/AcquisitionMode_mode typedef.ctl"/>
+				<Item Name="SetAcquisitionMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetAcquisitionMode.vi"/>
+				<Item Name="ReadMode_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/ReadMode_mode typedef.ctl"/>
+				<Item Name="OutputAmplifier_type typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/OutputAmplifier_type typedef.ctl"/>
+				<Item Name="TriggerMode_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/TriggerMode_mode typedef.ctl"/>
+				<Item Name="AbortAcquisition.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/AbortAcquisition.vi"/>
+				<Item Name="SetReadMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetReadMode.vi"/>
+				<Item Name="SetADChannel.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetADChannel.vi"/>
+				<Item Name="SetHSSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetHSSpeed.vi"/>
+				<Item Name="SetVSSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetVSSpeed.vi"/>
+				<Item Name="SetHighCapacity.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetHighCapacity.vi"/>
+				<Item Name="SetOutputAmplifier.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetOutputAmplifier.vi"/>
+				<Item Name="SetVSAmplitude.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetVSAmplitude.vi"/>
+				<Item Name="SetPreAmpGain.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetPreAmpGain.vi"/>
+				<Item Name="SetTriggerMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetTriggerMode.vi"/>
+				<Item Name="SetExposureTime.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetExposureTime.vi"/>
+				<Item Name="GetAcquisitionTimings.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetAcquisitionTimings.vi"/>
+				<Item Name="SetEMCCDGain.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetEMCCDGain.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
