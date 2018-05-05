@@ -671,30 +671,30 @@
 			<Item Name="ATMCD32D.DLL" Type="Document" URL="../ATMCD32D.DLL"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="h-nu ixon1024 microscope software LLB" Type="Source Distribution">
+			<Item Name="h-nu ixonUltra1024 microscope software LLB" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{7ED1D243-1D60-471F-A1B0-5896A6D86E37}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">h-nu ixon1024 microscope software LLB</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">h-nu ixonUltra1024 microscope software LLB</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
 				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/Users/gelles/Documents/LabVIEW Data/InstCache</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/15.0</Property>
 				<Property Name="Bld_excludedDirectory[3]" Type="Path">instr.lib</Property>
 				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/gelles/Documents/Builds/Glimpse/NI_AB_PROJECTNAME/h-nu ixon1024 microscope software.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/gelles/Documents/Builds/Glimpse/NI_AB_PROJECTNAME/h-nu ixonUltra1024 microscope software.llb</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{92E59B46-02FD-4A5C-8002-472F13010BD0}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/gelles/Documents/Builds/Glimpse/NI_AB_PROJECTNAME/h-nu ixon1024 microscope software.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/gelles/Documents/Builds/Glimpse/NI_AB_PROJECTNAME/h-nu ixonUltra1024 microscope software.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/h-nu ixon1024 microscope software/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{37BCF801-AEA0-429F-BE50-E206017BEA32}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5C3832B2-1A29-4270-BF95-80BFA95AE46B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/stage controller.vi</Property>
@@ -711,21 +711,16 @@
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
 				<Property Name="Source[11].VI.LLBtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[12].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref"></Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/RR asynchronous autofocus.vi</Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[12].type" Type="Str">Container</Property>
+				<Property Name="Source[12].type" Type="Str">VI</Property>
+				<Property Name="Source[12].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/RR asynchronous autofocus.vi</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/GPI-Load-Save settings.vi</Property>
 				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[13].VI.LLBtopLevel" Type="Bool">true</Property>
-				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/GPI-Load-Save settings.vi</Property>
-				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[14].type" Type="Str">VI</Property>
-				<Property Name="Source[14].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GLIMPSE Launcher.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -764,7 +759,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/h-nu shutters/shutters activate.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">15</Property>
+				<Property Name="SourceCount" Type="Int">14</Property>
 			</Item>
 			<Item Name="h-nu Shutter all shutters EXE" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
