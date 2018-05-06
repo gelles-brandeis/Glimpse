@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="11008008">
+<Project Type="Project" LVVersion="15008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">false</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
@@ -14,58 +14,25 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="USB Mad city stage" Type="Folder">
-			<Item Name="HAL Stage close.vi" Type="VI" URL="../USB Mad city stage/HAL Stage close.vi"/>
-			<Item Name="HAL stage init.vi" Type="VI" URL="../USB Mad city stage/HAL stage init.vi"/>
-			<Item Name="HAL stage specifications globals.vi" Type="VI" URL="../USB Mad city stage/HAL stage specifications globals.vi"/>
-			<Item Name="Nano-drive.vi" Type="VI" URL="../USB Mad city stage/Nano-drive.vi"/>
-			<Item Name="StandardInit.vi" Type="VI" URL="../USB Mad city stage/StandardInit.vi"/>
+		<Item Name="USB Mad city stage" Type="Folder" URL="../USB Mad city stage">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="ixon camera" Type="Folder">
-			<Item Name="andor camera properties.ctl" Type="VI" URL="../ixon camera/andor camera properties.ctl"/>
-			<Item Name="defunct Setup acquisition.vi" Type="VI" URL="../ixon camera/defunct Setup acquisition.vi"/>
-			<Item Name="Get ixon camera info.vi" Type="VI" URL="../ixon camera/Get ixon camera info.vi"/>
-			<Item Name="HAL camera calculate binning.vi" Type="VI" URL="../ixon camera/HAL camera calculate binning.vi"/>
-			<Item Name="HAL camera cooler off.vi" Type="VI" URL="../ixon camera/HAL camera cooler off.vi"/>
-			<Item Name="HAL camera cooler on.vi" Type="VI" URL="../ixon camera/HAL camera cooler on.vi"/>
-			<Item Name="HAL camera get one frame.vi" Type="VI" URL="../ixon camera/HAL camera get one frame.vi"/>
-			<Item Name="HAL camera get temp.vi" Type="VI" URL="../ixon camera/HAL camera get temp.vi"/>
-			<Item Name="HAL camera info.vi" Type="VI" URL="../ixon camera/HAL camera info.vi"/>
-			<Item Name="HAL camera initialize.vi" Type="VI" URL="../ixon camera/HAL camera initialize.vi"/>
-			<Item Name="HAL camera program for acquisition.vi" Type="VI" URL="../ixon camera/HAL camera program for acquisition.vi"/>
-			<Item Name="HAL camera properties.ctl" Type="VI" URL="../ixon camera/HAL camera properties.ctl"/>
-			<Item Name="HAL camera quit.vi" Type="VI" URL="../ixon camera/HAL camera quit.vi"/>
-			<Item Name="HAL camera set temp.vi" Type="VI" URL="../ixon camera/HAL camera set temp.vi"/>
-			<Item Name="HAL camera start acquire.vi" Type="VI" URL="../ixon camera/HAL camera start acquire.vi"/>
-			<Item Name="HAL camera stop.vi" Type="VI" URL="../ixon camera/HAL camera stop.vi"/>
-			<Item Name="HAL cooling status.ctt" Type="VI" URL="../ixon camera/HAL cooling status.ctt"/>
-			<Item Name="image size.ctl" Type="VI" URL="../ixon camera/image size.ctl"/>
-			<Item Name="ixon error converter.vi" Type="VI" URL="../ixon camera/ixon error converter.vi"/>
-			<Item Name="ixon get one frame.vi" Type="VI" URL="../ixon camera/ixon get one frame.vi"/>
-			<Item Name="ixon setup FT acquisition 2.vi" Type="VI" URL="../ixon camera/ixon setup FT acquisition 2.vi"/>
+		<Item Name="ixon camera" Type="Folder" URL="../ixon camera">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="newhnu shutters" Type="Folder">
-			<Item Name="camera Shutter operate.vi" Type="VI" URL="../newhnu shutters/camera Shutter operate.vi"/>
-			<Item Name="hardware status globals.vi" Type="VI" URL="../newhnu shutters/hardware status globals.vi"/>
-			<Item Name="shutters activate.vi" Type="VI" URL="../newhnu shutters/shutters activate.vi"/>
-			<Item Name="shutters status.ctl" Type="VI" URL="../newhnu shutters/shutters status.ctl"/>
+		<Item Name="newhnu shutters" Type="Folder" URL="../newhnu shutters">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="new-h-nu-ixon" Type="Folder">
-			<Item Name="Emission filters.ctl" Type="VI" URL="../new-h-nu-ixon/Emission filters.ctl"/>
-			<Item Name="Filter wheel settings globals.vi" Type="VI" URL="../new-h-nu-ixon/Filter wheel settings globals.vi"/>
-			<Item Name="Laser type.ctt" Type="VI" URL="../new-h-nu-ixon/Laser type.ctt"/>
-			<Item Name="QPD config globals.vi" Type="VI" URL="../new-h-nu-ixon/QPD config globals.vi"/>
-			<Item Name="shutter port lookup.vi" Type="VI" URL="../new-h-nu-ixon/shutter port lookup.vi"/>
+		<Item Name="new-h-nu-ixon" Type="Folder" URL="../new-h-nu-ixon">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="ixon1024" Type="Folder">
-			<Item Name="andor acquisition mode.ctl" Type="VI" URL="../ixon1024/andor acquisition mode.ctl"/>
-			<Item Name="camera defaults globals.vi" Type="VI" URL="../ixon1024/camera defaults globals.vi"/>
-			<Item Name="HAL camera parameters important.ctt" Type="VI" URL="../ixon1024/HAL camera parameters important.ctt"/>
-			<Item Name="ixon readout settings.ctl" Type="VI" URL="../ixon1024/ixon readout settings.ctl"/>
+		<Item Name="ixon1024" Type="Folder" URL="../ixon1024">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="phidgets knobs" Type="Folder">
 			<Item Name="knob driver 3.vi" Type="VI" URL="../phidgets knobs/knob driver 3.vi"/>
 		</Item>
+		<Item Name="ATMCD32D.DLL" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/ATMCD32D.DLL"/>
 		<Item Name="GLIMPSE Launcher.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Launcher.vi"/>
 		<Item Name="Glimpse Image Display Controller.vi" Type="VI" URL="../../Glimpse core/Glimpse Image Display Controller.vi"/>
 		<Item Name="Camera startup.vi" Type="VI" URL="../Camera/Camera startup.vi"/>
@@ -78,11 +45,9 @@
 		<Item Name="stage step to next field globals.vi" Type="VI" URL="../Stage/stage step to next field globals.vi"/>
 		<Item Name="RR asynchronous autofocus.vi" Type="VI" URL="../RR asynchronous autofocus.vi"/>
 		<Item Name="Madlib.dll" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/Madlib.dll"/>
-		<Item Name="ATMCD32D.DLL" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/ATMCD32D.DLL"/>
 		<Item Name="wdapi1010.dll" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/wdapi1010.dll"/>
 		<Item Name="Start!.vi" Type="VI" URL="../Start!.vi"/>
 		<Item Name="Microscope software version global.vi" Type="VI" URL="../Microscope software version global.vi"/>
-		<Item Name="Ixon z-stack acquisition.vi" Type="VI" URL="../ixon camera/Ixon z-stack acquisition.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
@@ -92,7 +57,6 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
@@ -444,13 +408,24 @@
 				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
 				<Item Name="subBuildXYGraph.vi" Type="VI" URL="/&lt;vilib&gt;/express/express controls/BuildXYGraphBlock.llb/subBuildXYGraph.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
+				<Item Name="DAQmx Create Channel (AI-Velocity-IEPE Sensor).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Velocity-IEPE Sensor).vi"/>
+				<Item Name="DAQmx Create Channel (AI-Strain-Rosette Strain Gage).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (AI-Strain-Rosette Strain Gage).vi"/>
+				<Item Name="DAQmx Create Strain Rosette AI Channels (sub).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Strain Rosette AI Channels (sub).vi"/>
+				<Item Name="DAQmx Create Channel (CI-Duty Cycle).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Duty Cycle).vi"/>
+				<Item Name="DAQmx Create Channel (CI-Velocity-Angular).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Velocity-Angular).vi"/>
+				<Item Name="DAQmx Create Channel (CI-Velocity-Linear).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Channel (CI-Velocity-Linear).vi"/>
+				<Item Name="DAQmx Read (Counter 1D DBL NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D DBL NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Counter 1D U32 NChan 1Samp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 1D U32 NChan 1Samp).vi"/>
+				<Item Name="DAQmx Read (Counter 2D DBL NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 2D DBL NChan NSamp).vi"/>
+				<Item Name="DAQmx Read (Counter 2D U32 NChan NSamp).vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/read.llb/DAQmx Read (Counter 2D U32 NChan NSamp).vi"/>
 			</Item>
 			<Item Name="instr.lib" Type="Folder">
-				<Item Name="su10x Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/su10x/su10x.llb/su10x Initialize.vi"/>
-				<Item Name="su10x Close.vi" Type="VI" URL="/&lt;instrlib&gt;/su10x/su10x.llb/su10x Close.vi"/>
 				<Item Name="su10x Configure Filter Wheel.vi" Type="VI" URL="/&lt;instrlib&gt;/su10x/su10x.llb/su10x Configure Filter Wheel.vi"/>
+				<Item Name="su10x Initialize.vi" Type="VI" URL="/&lt;instrlib&gt;/su10x/su10x.llb/su10x Initialize.vi"/>
 				<Item Name="su10x Control Mode.vi" Type="VI" URL="/&lt;instrlib&gt;/su10x/su10x.llb/su10x Control Mode.vi"/>
 				<Item Name="su10x Reset.vi" Type="VI" URL="/&lt;instrlib&gt;/su10x/su10x.llb/su10x Reset.vi"/>
+				<Item Name="su10x Close.vi" Type="VI" URL="/&lt;instrlib&gt;/su10x/su10x.llb/su10x Close.vi"/>
 			</Item>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="HSSpeed_type typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/HSSpeed_type typedef.ctl"/>
@@ -475,6 +450,54 @@
 				<Item Name="GetPreAmpGain.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetPreAmpGain.vi"/>
 				<Item Name="EncoderGetPosition.vi" Type="VI" URL="/&lt;userlib&gt;/Phidgets Library/Encoder/EncoderGetPosition.vi"/>
 				<Item Name="ErrorHandler.vi" Type="VI" URL="/&lt;userlib&gt;/Phidgets Library/Common Functions/ErrorHandler.vi"/>
+				<Item Name="EncoderOpen.vi" Type="VI" URL="/&lt;userlib&gt;/Phidgets Library/Encoder/EncoderOpen.vi"/>
+				<Item Name="PhidgetClose.vi" Type="VI" URL="/&lt;userlib&gt;/Phidgets Library/Common Functions/PhidgetClose.vi"/>
+				<Item Name="Shutter_type typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Shutter_type typedef.ctl"/>
+				<Item Name="AbortAcquisition.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/AbortAcquisition.vi"/>
+				<Item Name="SetAcquisitionMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetAcquisitionMode.vi"/>
+				<Item Name="SetReadMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetReadMode.vi"/>
+				<Item Name="SetADChannel.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetADChannel.vi"/>
+				<Item Name="SetHSSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetHSSpeed.vi"/>
+				<Item Name="SetVSSpeed.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetVSSpeed.vi"/>
+				<Item Name="SetHighCapacity.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetHighCapacity.vi"/>
+				<Item Name="SetOutputAmplifier.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetOutputAmplifier.vi"/>
+				<Item Name="SetVSAmplitude.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetVSAmplitude.vi"/>
+				<Item Name="SetPreAmpGain.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetPreAmpGain.vi"/>
+				<Item Name="SetTriggerMode.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetTriggerMode.vi"/>
+				<Item Name="SetExposureTime.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetExposureTime.vi"/>
+				<Item Name="IsInternalMechanicalShutter.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/IsInternalMechanicalShutter.vi"/>
+				<Item Name="SetShutter.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetShutter.vi"/>
+				<Item Name="GetAcquisitionTimings.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetAcquisitionTimings.vi"/>
+				<Item Name="SetEMCCDGain.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetEMCCDGain.vi"/>
+				<Item Name="SetBaselineClamp.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetBaselineClamp.vi"/>
+				<Item Name="SetBaselineOffset.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetBaselineOffset.vi"/>
+				<Item Name="Error Cluster To Error Description.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Error Cluster To Error Description.vi"/>
+				<Item Name="GetAvailableCameras.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetAvailableCameras.vi"/>
+				<Item Name="GetCameraHandle.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/GetCameraHandle.vi"/>
+				<Item Name="SetCurrentCamera.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/SetCurrentCamera.vi"/>
+				<Item Name="Error Code Handler.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Error Code Handler.vi"/>
+				<Item Name="Get Error Source.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Get Error Source.vi"/>
+				<Item Name="Join Strings.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Join Strings.vi"/>
+				<Item Name="Add ECO For LabVIEW.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Add ECO For LabVIEW.vi"/>
+				<Item Name="Error Code Offset global.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Error Code Offset global.vi"/>
+				<Item Name="Subtract ECO For DLL.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Subtract ECO For DLL.vi"/>
+				<Item Name="Add ECO For DLL.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Add ECO For DLL.vi"/>
+				<Item Name="Error Code Enum typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Error Code Enum typedef.ctl"/>
+				<Item Name="AcquisitionMode_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/AcquisitionMode_mode typedef.ctl"/>
+				<Item Name="ReadMode_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/ReadMode_mode typedef.ctl"/>
+				<Item Name="OutputAmplifier_type typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/OutputAmplifier_type typedef.ctl"/>
+				<Item Name="TriggerMode_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/TriggerMode_mode typedef.ctl"/>
+				<Item Name="Shutter_mode typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d.llb/Shutter_mode typedef.ctl"/>
+				<Item Name="U32 To Error Code Enum.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/U32 To Error Code Enum.vi"/>
+				<Item Name="Subtract ECO For LabVIEW.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Subtract ECO For LabVIEW.vi"/>
+				<Item Name="Error Source To Function Enum.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Error Source To Function Enum.vi"/>
+				<Item Name="Function Enum typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Function Enum typedef.ctl"/>
+				<Item Name="I32 To Function Enum.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/I32 To Function Enum.vi"/>
+				<Item Name="Error Code Enum To String.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Error Code Enum To String.vi"/>
+				<Item Name="Function Enum And Error Code Enum To Error Description.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Function Enum And Error Code Enum To Error Description.vi"/>
+				<Item Name="Function Error Descriptions global.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Function Error Descriptions global.vi"/>
+				<Item Name="Function Error Description Cluster typedef.ctl" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/Function Error Description Cluster typedef.ctl"/>
+				<Item Name="U32 Array To AndorCapabilities.vi" Type="VI" URL="/&lt;userlib&gt;/atmcd32d_internal.llb/U32 Array To AndorCapabilities.vi"/>
 				<Item Name="EncoderCreate.vi" Type="VI" URL="/&lt;userlib&gt;/Phidgets Library/Encoder/EncoderCreate.vi"/>
 				<Item Name="_ChkError.vi" Type="VI" URL="/&lt;userlib&gt;/Phidgets Library/Common Functions/Subvi/_ChkError.vi"/>
 				<Item Name="PhidgetOpen.vi" Type="VI" URL="/&lt;userlib&gt;/Phidgets Library/Common Functions/PhidgetOpen.vi"/>
@@ -484,8 +507,6 @@
 				<Item Name="_SerialReturn.vi" Type="VI" URL="/&lt;userlib&gt;/Phidgets Library/Common Functions/Subvi/_SerialReturn.vi"/>
 				<Item Name="_Close.vi" Type="VI" URL="/&lt;userlib&gt;/Phidgets Library/Common Functions/Subvi/_Close.vi"/>
 				<Item Name="_Delete.vi" Type="VI" URL="/&lt;userlib&gt;/Phidgets Library/Common Functions/Subvi/_Delete.vi"/>
-				<Item Name="EncoderOpen.vi" Type="VI" URL="/&lt;userlib&gt;/Phidgets Library/Encoder/EncoderOpen.vi"/>
-				<Item Name="PhidgetClose.vi" Type="VI" URL="/&lt;userlib&gt;/Phidgets Library/Common Functions/PhidgetClose.vi"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -497,14 +518,10 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="phidget21.dll" Type="Document" URL="phidget21.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="Merge text metadata.vi" Type="VI" URL="../../Glimpse core/Merge text metadata.vi"/>
 			<Item Name="ATMCD32D.DLL" Type="Document" URL="ATMCD32D.DLL">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
 			<Item Name="Display merged still images.vi" Type="VI" URL="../../Glimpse core/Plug-ins/movie merge/Display merged still images.vi"/>
 			<Item Name="Merge images.vi" Type="VI" URL="../../Glimpse core/Plug-ins/movie merge/Merge images.vi"/>
 			<Item Name="Add overlay to merged image.vi" Type="VI" URL="../../Glimpse core/Plug-ins/movie merge/Add overlay to merged image.vi"/>
@@ -646,11 +663,13 @@
 			<Item Name="Offset.ctl" Type="VI" URL="../../Glimpse core/Seq file v 1/Offset.ctl"/>
 			<Item Name="file number.ctl" Type="VI" URL="../../Glimpse core/Seq file v 1/file number.ctl"/>
 			<Item Name="Image to Display event.ctt" Type="VI" URL="../../Glimpse core/Image to Display event.ctt"/>
-			<Item Name="knob global.vi" Type="VI" URL="../new-h-nu-ixon/knob global.vi"/>
-			<Item Name="Microscope ID global.vi" Type="VI" URL="../new-h-nu-ixon/Microscope ID global.vi"/>
-			<Item Name="stage globals.vi" Type="VI" URL="../new-h-nu-ixon/stage globals.vi"/>
-			<Item Name="Start! globals.vi" Type="VI" URL="../new-h-nu-ixon/Start! globals.vi"/>
-			<Item Name="HAL Camera specifications globals.vi" Type="VI" URL="../ixon1024/HAL Camera specifications globals.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="ATMCD32D.DLL" Type="Document" URL="../ATMCD32D.DLL"/>
+			<Item Name="andor camera properties.ctl" Type="VI" URL="../ixon camera/andor camera properties.ctl"/>
+			<Item Name="Atmcd32d.dll" Type="Document" URL="../../../../../../../Program Files (x86)/BDS2006/Atmcd32d.dll"/>
+			<Item Name="phidget21.dll" Type="Document" URL="phidget21.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="New-h-nu microscope software LLB" Type="Source Distribution">
@@ -668,6 +687,7 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/gelles/Documents/Builds/New-h-nu microscope software.llb</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{92E59B46-02FD-4A5C-8002-472F13010BD0}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/gelles/Documents/Builds/New-h-nu microscope software.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -679,7 +699,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{5BEB7830-EE53-4D68-8F85-DBDAF003BBDB}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/newhnu shutters/shutters activate.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref"></Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
@@ -701,7 +721,7 @@
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[13].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/Ixon z-stack acquisition.vi</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/ixon camera/Ixon z-stack acquisition.vi</Property>
 				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
 				<Property Name="Source[14].VI.LLBtopLevel" Type="Bool">true</Property>
@@ -749,6 +769,7 @@
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{0A1076A6-BCB6-46A0-9F30-BDF6F03F89F7}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{8A114664-FB9D-4083-972C-A8C751A6CC12}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{C5B2F16F-1ADA-4485-A5C3-751AF2B5A97C}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">New-h-nu Shutter all shutters EXE</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -757,6 +778,7 @@
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{B0AD0643-8B8D-4E97-9812-35059DEA7061}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">New-h-nu Shutter all shutters.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/New-h-nu Shutter all shutters EXE/New-h-nu Shutter all shutters.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -773,7 +795,6 @@
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">New-h-nu Shutter all shutters EXE</Property>
-				<Property Name="TgtF_fileVersion.major" Type="Int">1</Property>
 				<Property Name="TgtF_internalName" Type="Str">New-h-nu Shutter all shutters EXE</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2012 </Property>
 				<Property Name="TgtF_productName" Type="Str">New-h-nu Shutter all shutters EXE</Property>
@@ -791,9 +812,9 @@
 				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{1D78A81A-58D9-46F7-BFF6-ADF7247803F9}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Run-Time Engine 2011 SP1</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{6AD6C111-233B-4924-A3BF-E4813FE23C7A}</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{F94B2903-26DD-46D1-8D1A-3375D1CC0B9F}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2015 SP1 f10</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{CA8FF739-2EDA-4134-9A70-0F5DD933FDED}</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">../builds/New-h-nu Shutter all shutters Installer/New-h-nu Shutter all shutters Installer</Property>
@@ -803,7 +824,7 @@
 				<Property Name="INST_productName" Type="Str">New-h-nu Shutter all shutters Installer</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">11018015</Property>
+				<Property Name="InstSpecVersion" Type="Str">15018023</Property>
 				<Property Name="MSI_distID" Type="Str">{639D4A49-1B2E-48D7-8180-619985DBBEED}</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{EF457F10-5DDB-4346-9E84-5B5A281EAED0}</Property>
