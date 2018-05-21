@@ -696,71 +696,71 @@
 				<Property Name="Destination[1].path" Type="Path">/C/Users/gelles/Documents/Builds/New-h-nu microscope software/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5BEB7830-EE53-4D68-8F85-DBDAF003BBDB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{429B467E-97AA-4A04-BB7B-F8EC8475E80D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref"></Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/stage controller.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[1].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/GPI-Load-Save settings.vi</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/GPI-Movie merge.vi</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[10].type" Type="Str">VI</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/GPI-Movie merge.vi</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/RR asynchronous autofocus.vi</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">VI</Property>
+				<Property Name="Source[11].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/RR asynchronous autofocus.vi</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/Start!.vi</Property>
 				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[12].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/Start!.vi</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/ixon camera/Ixon z-stack acquisition.vi</Property>
 				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[13].type" Type="Str">VI</Property>
 				<Property Name="Source[13].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/ixon camera/Ixon z-stack acquisition.vi</Property>
+				<Property Name="Source[14].itemID" Type="Ref">/My Computer/newhnu shutters/shutters activate.vi</Property>
 				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
-				<Property Name="Source[14].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/stage controller.vi</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GLIMPSE Launcher.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[2].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/GLIMPSE Launcher.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Glimpse Image Display Controller.vi</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
-				<Property Name="Source[3].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Glimpse Image Display Controller.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Camera startup.vi</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
+				<Property Name="Source[4].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Camera startup.vi</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/RR autofocus view-calibrate.vi</Property>
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[5].type" Type="Str">VI</Property>
 				<Property Name="Source[5].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/RR autofocus view-calibrate.vi</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Multi-mode acquisition.vi</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[6].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Multi-mode acquisition.vi</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/phidgets knobs/knob driver 3.vi</Property>
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[7].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/phidgets knobs/knob driver 3.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/GPI-Join Sequences.vi</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="Source[8].VI.LLBtopLevel" Type="Bool">true</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/GPI-Join Sequences.vi</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/GPI-Load-Save settings.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">15</Property>
