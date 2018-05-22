@@ -670,6 +670,7 @@
 			<Item Name="phidget21.dll" Type="Document" URL="phidget21.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ATMCD32D.DLL" Type="Document" URL="/../Program Files (x86)/Gelles Lab Software/ATMCD32D.DLL"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="New-h-nu microscope software LLB" Type="Source Distribution">
