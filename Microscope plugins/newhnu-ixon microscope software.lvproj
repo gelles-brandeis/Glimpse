@@ -697,7 +697,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/Users/gelles/Documents/Builds/New-h-nu microscope software/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{429B467E-97AA-4A04-BB7B-F8EC8475E80D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{A23DF630-5D5A-4642-8DB9-13EA036CA61D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/stage controller.vi</Property>
@@ -727,6 +727,8 @@
 				<Property Name="Source[14].itemID" Type="Ref">/My Computer/newhnu shutters/shutters activate.vi</Property>
 				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[14].type" Type="Str">VI</Property>
+				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Madlib.dll</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GLIMPSE Launcher.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -764,7 +766,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/GPI-Load-Save settings.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">15</Property>
+				<Property Name="SourceCount" Type="Int">16</Property>
 			</Item>
 			<Item Name="New-h-nu Shutter all shutters EXE" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
