@@ -16,6 +16,7 @@
 		<Item Name="GPI-Join Sequences.vi" Type="VI" URL="../GPI-Join Sequences.vi"/>
 		<Item Name="Glimpse Image Display Controller.vi" Type="VI" URL="../Glimpse Image Display Controller.vi"/>
 		<Item Name="glimpse2.ico" Type="Document" URL="../glimpse2.ico"/>
+		<Item Name="Save into new sequence.vi" Type="VI" URL="../Save into new sequence.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
@@ -313,7 +314,6 @@
 			<Item Name="Read N single images.vi" Type="VI" URL="../Plug-ins/movie merge/Read N single images.vi"/>
 			<Item Name="GLIMPSE Sequence Player.vi" Type="VI" URL="../GLIMPSE Sequence Player.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="matscript.dll" Type="Document"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Glimpse LLB" Type="Source Distribution">
