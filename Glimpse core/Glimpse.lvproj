@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="11008008">
+<Project Type="Project" LVVersion="15008000">
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -23,7 +23,6 @@
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -185,6 +184,7 @@
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="IMAQ Copy" Type="VI" URL="/&lt;vilib&gt;/vision/Management.llb/IMAQ Copy"/>
 				<Item Name="IMAQ AVI Get Filter Names" Type="VI" URL="/&lt;vilib&gt;/vision/Avi2.llb/IMAQ AVI Get Filter Names"/>
+				<Item Name="General Error Handler Core CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler Core CORE.vi"/>
 			</Item>
 			<Item Name="GLIMPSE Initialize.vi" Type="VI" URL="../GLIMPSE Initialize.vi"/>
 			<Item Name="Position calling vi to LR 2.vi" Type="VI" URL="../Position calling vi to LR 2.vi"/>
@@ -312,7 +312,7 @@
 			<Item Name="Add overlay to merged image.vi" Type="VI" URL="../Plug-ins/movie merge/Add overlay to merged image.vi"/>
 			<Item Name="Read N single images.vi" Type="VI" URL="../Plug-ins/movie merge/Read N single images.vi"/>
 			<Item Name="GLIMPSE Sequence Player.vi" Type="VI" URL="../GLIMPSE Sequence Player.vi"/>
-			<Item Name="lvanlys.dll" Type="Document" URL="../../../../../../../Program Files (x86)/National Instruments/LabVIEW 2011/resource/lvanlys.dll"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Glimpse LLB" Type="Source Distribution">
@@ -330,6 +330,7 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
 				<Property Name="Bld_localDestDir" Type="Path">/C/Users/gelles/Documents/Builds/NI_AB_PROJECTNAME/Glimpse LLB/Glimpse.llb</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E1BD815B-CA78-4C61-BD85-052EA58A6BB2}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/gelles/Documents/Builds/NI_AB_PROJECTNAME/Glimpse LLB/Glimpse.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -364,25 +365,27 @@
 			<Item Name="Glimpse executable" Type="EXE">
 				<Property Name="App_INI_aliasGUID" Type="Str">{5FA662AB-B066-4FC2-90B4-53CBFA7EA7E6}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{1A60C40E-5F3C-4357-9764-95166C294F08}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{5797BC24-E263-44A5-95E3-4849CF72092F}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Glimpse executable</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/gelles/Documents/Builds/NI_AB_PROJECTNAME/Glimpse executable</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/gelles.users/Documents/Builds/NI_AB_PROJECTNAME/Glimpse executable</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{78CEF693-6F87-4DB1-9B9B-5C25FC11F97E}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">53</Property>
 				<Property Name="Destination[0].destName" Type="Str">glimpse.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/gelles/Documents/Builds/NI_AB_PROJECTNAME/Glimpse executable/Glimpse.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/gelles.users/Documents/Builds/NI_AB_PROJECTNAME/Glimpse executable/Glimpse.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/gelles/Documents/Builds/NI_AB_PROJECTNAME/Glimpse executable/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/gelles.users/Documents/Builds/NI_AB_PROJECTNAME/Glimpse executable/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/glimpse2.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{16277135-83CF-4529-B405-C44DD69AB35D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8C3A50E2-685F-4BEF-A2A0-DAE6EE843C3D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GLIMPSE Launcher.vi</Property>
@@ -403,7 +406,6 @@
 				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">Brandeis Univ.</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Glimpse executable</Property>
-				<Property Name="TgtF_fileVersion.major" Type="Int">53</Property>
 				<Property Name="TgtF_internalName" Type="Str">Glimpse executable</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2006-2014 Jeff Gelles, Brandeis Univ.</Property>
 				<Property Name="TgtF_productName" Type="Str">Glimpse executable</Property>
@@ -433,27 +435,67 @@
 				<Property Name="Destination[4].type" Type="Str">userFolder</Property>
 				<Property Name="DestinationCount" Type="Int">5</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{1D78A81A-58D9-46F7-BFF6-ADF7247803F9}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Run-Time Engine 2011 SP1</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{6AD6C111-233B-4924-A3BF-E4813FE23C7A}</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{F94B2903-26DD-46D1-8D1A-3375D1CC0B9F}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2015 SP1 f10</Property>
+				<Property Name="DistPart[0].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[0].productName" Type="Str">NI LabVIEW Runtime 2015 SP1 Non-English Support.</Property>
+				<Property Name="DistPart[0].SoftDep[0].upgradeCode" Type="Str">{128ABF1E-5F69-40D1-8A81-33DCF8229F08}</Property>
+				<Property Name="DistPart[0].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[1].productName" Type="Str">NI ActiveX Container</Property>
+				<Property Name="DistPart[0].SoftDep[1].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[0].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[10].productName" Type="Str">NI mDNS Responder 17.0</Property>
+				<Property Name="DistPart[0].SoftDep[10].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[0].SoftDep[11].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[11].productName" Type="Str">NI Deployment Framework 2017</Property>
+				<Property Name="DistPart[0].SoftDep[11].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[0].SoftDep[12].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[12].productName" Type="Str">NI Error Reporting 2017</Property>
+				<Property Name="DistPart[0].SoftDep[12].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[0].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[2].productName" Type="Str">NI System Web Server 15.5</Property>
+				<Property Name="DistPart[0].SoftDep[2].upgradeCode" Type="Str">{FCF64B73-B7D4-4971-8F11-24BAF7CC3E6C}</Property>
+				<Property Name="DistPart[0].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[3].productName" Type="Str">Math Kernel Libraries</Property>
+				<Property Name="DistPart[0].SoftDep[3].upgradeCode" Type="Str">{4C0854AD-9BFC-4494-A4E0-D96C0C07F1F2}</Property>
+				<Property Name="DistPart[0].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[4].productName" Type="Str">NI Logos 5.9</Property>
+				<Property Name="DistPart[0].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[0].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[5].productName" Type="Str">NI TDM Streaming 17.0</Property>
+				<Property Name="DistPart[0].SoftDep[5].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[0].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[6].productName" Type="Str">NI LabVIEW Web Server 2015</Property>
+				<Property Name="DistPart[0].SoftDep[6].upgradeCode" Type="Str">{78AAB900-C712-11E3-9C1A-0800200C9A66}</Property>
+				<Property Name="DistPart[0].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[7].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2015</Property>
+				<Property Name="DistPart[0].SoftDep[7].upgradeCode" Type="Str">{25643B9A-90E8-4100-B30C-10EC4DE2EE68}</Property>
+				<Property Name="DistPart[0].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[8].productName" Type="Str">NI VC2008MSMs</Property>
+				<Property Name="DistPart[0].SoftDep[8].upgradeCode" Type="Str">{FDA3F8BB-BAA9-45D7-8DC7-22E1F5C76315}</Property>
+				<Property Name="DistPart[0].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[0].SoftDep[9].productName" Type="Str">NI VC2010MSMs</Property>
+				<Property Name="DistPart[0].SoftDep[9].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
+				<Property Name="DistPart[0].SoftDepCount" Type="Int">13</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{CA8FF739-2EDA-4134-9A70-0F5DD933FDED}</Property>
 				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{A0D54F97-20DA-4C7F-902C-1D4562F21753}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI Vision Run-Time Engine 2011 SP1</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{A4EBFBE9-7A34-4FE9-9D6C-09778CA69032}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI Vision Runtime 2015 SP1</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{63DF74E5-A5C9-11D4-814E-005004D6CDD6}</Property>
 				<Property Name="DistPartCount" Type="Int">2</Property>
 				<Property Name="INST_buildLocation" Type="Path">/C/Users/gelles/Documents/Builds/Glimpse/Glimpse EXE Installer</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Glimpse EXE Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{919AD321-5501-4434-A400-EC4F6A14EBEB}</Property>
 				<Property Name="INST_productName" Type="Str">Glimpse</Property>
-				<Property Name="INST_productVersion" Type="Str">53.0.0</Property>
+				<Property Name="INST_productVersion" Type="Str">54.0.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">11018015</Property>
+				<Property Name="InstSpecVersion" Type="Str">15018023</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Brandeis University</Property>
 				<Property Name="MSI_arpContact" Type="Str">Jeff Gelles</Property>
 				<Property Name="MSI_arpPhone" Type="Str">gelles@brandeis.edu</Property>
 				<Property Name="MSI_arpURL" Type="Str">http://www.brandeis.edu/projects/gelleslab/glimpse/glimpse.html</Property>
 				<Property Name="MSI_distID" Type="Str">{B5AD6876-89B1-4577-B905-67DA68A8953A}</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_osCheck" Type="Int">5</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{BDB9041A-76AE-4916-979C-2F63B12D018A}</Property>
 				<Property Name="MSI_windowMessage" Type="Str">This will install the execuatable version of Glimpse onto a computer.  The LabView and NI Vision run-time systems will be installed if not already present.   If this is a new installation on this computer, follow the directions in Readme.rtf after the installation is over</Property>
 				<Property Name="MSI_windowTitle" Type="Str">Glimpse installer</Property>
@@ -503,7 +545,7 @@
 				<Property Name="INST_productName" Type="Str">Glimpse</Property>
 				<Property Name="INST_productVersion" Type="Str">53.0.0</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">11018015</Property>
+				<Property Name="InstSpecVersion" Type="Str">15018023</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Brandeis University</Property>
 				<Property Name="MSI_arpContact" Type="Str">Jeff Gelles</Property>
 				<Property Name="MSI_arpPhone" Type="Str">gelles@brandeis.edu</Property>
