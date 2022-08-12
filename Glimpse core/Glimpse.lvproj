@@ -375,7 +375,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{78CEF693-6F87-4DB1-9B9B-5C25FC11F97E}</Property>
 				<Property Name="Bld_supportedLanguage[0]" Type="Str">English</Property>
 				<Property Name="Bld_supportedLanguageCount" Type="Int">1</Property>
-				<Property Name="Bld_version.major" Type="Int">53</Property>
+				<Property Name="Bld_version.major" Type="Int">54</Property>
 				<Property Name="Destination[0].destName" Type="Str">glimpse.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">/C/Users/gelles.users/Documents/Builds/NI_AB_PROJECTNAME/Glimpse executable/Glimpse.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
@@ -385,7 +385,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/glimpse2.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8C3A50E2-685F-4BEF-A2A0-DAE6EE843C3D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8102180D-2201-49BD-84C5-6C9291B1EF4D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/GLIMPSE Launcher.vi</Property>
@@ -483,7 +483,7 @@
 				<Property Name="DistPart[1].productName" Type="Str">NI Vision Runtime 2015 SP1</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{63DF74E5-A5C9-11D4-814E-005004D6CDD6}</Property>
 				<Property Name="DistPartCount" Type="Int">2</Property>
-				<Property Name="INST_buildLocation" Type="Path">/C/Users/gelles/Documents/Builds/Glimpse/Glimpse EXE Installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">/C/Users/gelles.users/Documents/Builds/Glimpse/Glimpse EXE Installer</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Glimpse EXE Installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{919AD321-5501-4434-A400-EC4F6A14EBEB}</Property>
 				<Property Name="INST_productName" Type="Str">Glimpse</Property>
