@@ -670,7 +670,8 @@
 			<Item Name="phidget21.dll" Type="Document" URL="phidget21.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ATMCD32D.DLL" Type="Document" URL="/../Program Files (x86)/Gelles Lab Software/ATMCD32D.DLL"/>
+			<Item Name="ATMCD32D.DLL" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/new-h-nu microscope software/data/ATMCD32D.DLL"/>
+			<Item Name="Save into new sequence.vi" Type="VI" URL="../../Glimpse core/Save into new sequence.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="New-h-nu microscope software LLB" Type="Source Distribution">
