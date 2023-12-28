@@ -669,6 +669,7 @@
 			<Item Name="andor camera properties.ctl" Type="VI" URL="../ixon camera/andor camera properties.ctl"/>
 			<Item Name="ATMCD32D.DLL" Type="Document" URL="../ATMCD32D.DLL"/>
 			<Item Name="Save into new sequence.vi" Type="VI" URL="../../Glimpse core/Save into new sequence.vi"/>
+			<Item Name="matscript.dll" Type="Document"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="h-nu ixonUltra1024 microscope software LLB" Type="Source Distribution">
