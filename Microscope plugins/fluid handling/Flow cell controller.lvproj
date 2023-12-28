@@ -77,23 +77,24 @@
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
 				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[2]" Type="Path">instr.lib</Property>
-				<Property Name="Bld_excludedDirectory[2].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[3]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/15.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">instr.lib</Property>
 				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectoryCount" Type="Int">4</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Documents and Settings/gelles/My Documents/SVN sandbox/builds/NI_AB_PROJECTNAME/Flow cell controller.llb</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/gelles/Documents/Builds/NI_AB_PROJECTNAME/Flow cell controller.llb</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{D1EA4C29-40B7-42A4-98AB-1861FF3291EE}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Documents and Settings/gelles/My Documents/SVN sandbox/builds/NI_AB_PROJECTNAME/Flow cell controller.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/gelles/Documents/Builds/NI_AB_PROJECTNAME/Flow cell controller.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Documents and Settings/gelles/My Documents/SVN sandbox/builds/NI_AB_PROJECTNAME/Flow cell controller/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Users/gelles/Documents/Builds/NI_AB_PROJECTNAME/Flow cell controller.llb/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8E6636D6-2A05-43DF-9FBA-C770538CF5C2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3B61EAEB-F2FB-4088-B4B3-AA1F391BC4C5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Flow cell controller.vi</Property>
