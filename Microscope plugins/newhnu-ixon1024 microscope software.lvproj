@@ -32,7 +32,6 @@
 		<Item Name="phidgets knobs" Type="Folder">
 			<Item Name="knob driver 3.vi" Type="VI" URL="../phidgets knobs/knob driver 3.vi"/>
 		</Item>
-		<Item Name="ATMCD32D.DLL" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/ATMCD32D.DLL"/>
 		<Item Name="GLIMPSE Launcher.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Launcher.vi"/>
 		<Item Name="Glimpse Image Display Controller.vi" Type="VI" URL="../../Glimpse core/Glimpse Image Display Controller.vi"/>
 		<Item Name="Camera startup.vi" Type="VI" URL="../Camera/Camera startup.vi"/>
@@ -48,6 +47,8 @@
 		<Item Name="wdapi1010.dll" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/wdapi1010.dll"/>
 		<Item Name="Start!.vi" Type="VI" URL="../Start!.vi"/>
 		<Item Name="Microscope software version global.vi" Type="VI" URL="../Microscope software version global.vi"/>
+		<Item Name="Camera setup acquisition.vi" Type="VI" URL="../Camera/Camera setup acquisition.vi"/>
+		<Item Name="Coerce image size.vi" Type="VI" URL="../Camera/Coerce image size.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
@@ -653,8 +654,6 @@
 			<Item Name="Saved VI controls.ctl" Type="VI" URL="../../Glimpse core/Saved VI controls.ctl"/>
 			<Item Name="Camera Autofocus.vi" Type="VI" URL="../Camera/Camera Autofocus.vi"/>
 			<Item Name="camera globals.vi" Type="VI" URL="../Camera/camera globals.vi"/>
-			<Item Name="Camera setup acquisition.vi" Type="VI" URL="../Camera/Camera setup acquisition.vi"/>
-			<Item Name="Coerce image size.vi" Type="VI" URL="../Camera/Coerce image size.vi"/>
 			<Item Name="Glimpse file parameters.ctt" Type="VI" URL="../Camera/Glimpse file parameters.ctt"/>
 			<Item Name="Wait to use camera.vi" Type="VI" URL="../Camera/Wait to use camera.vi"/>
 			<Item Name="Move stage command.ctl" Type="VI" URL="../Stage/Move stage command.ctl"/>
@@ -670,7 +669,9 @@
 			<Item Name="phidget21.dll" Type="Document" URL="phidget21.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ATMCD32D.DLL" Type="Document" URL="/../Program Files (x86)/Gelles Lab Software/ATMCD32D.DLL"/>
+			<Item Name="ATMCD32D.DLL" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/new-h-nu microscope software/data/ATMCD32D.DLL"/>
+			<Item Name="Save into new sequence.vi" Type="VI" URL="../../Glimpse core/Save into new sequence.vi"/>
+			<Item Name="ATMCD32D.DLL" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/ATMCD32D.DLL"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="New-h-nu microscope software LLB" Type="Source Distribution">
@@ -686,18 +687,18 @@
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
 				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/gelles/Documents/Builds/New-h-nu microscope software.llb</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Users/gelles/Documents/Builds/New-h-nu microscope software34.llb</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{92E59B46-02FD-4A5C-8002-472F13010BD0}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/gelles/Documents/Builds/New-h-nu microscope software.llb</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Users/gelles/Documents/Builds/New-h-nu microscope software34.llb</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">/C/Users/gelles/Documents/Builds/New-h-nu microscope software/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A23DF630-5D5A-4642-8DB9-13EA036CA61D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{20962BE1-CFF0-4040-9753-9C2F39499FA2}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/stage controller.vi</Property>
@@ -729,6 +730,9 @@
 				<Property Name="Source[14].type" Type="Str">VI</Property>
 				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Madlib.dll</Property>
+				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[16].itemID" Type="Ref"></Property>
+				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GLIMPSE Launcher.vi</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -766,7 +770,7 @@
 				<Property Name="Source[9].itemID" Type="Ref">/My Computer/GPI-Load-Save settings.vi</Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">16</Property>
+				<Property Name="SourceCount" Type="Int">17</Property>
 			</Item>
 			<Item Name="New-h-nu Shutter all shutters EXE" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
