@@ -49,6 +49,7 @@
 		<Item Name="Microscope software version global.vi" Type="VI" URL="../Microscope software version global.vi"/>
 		<Item Name="Camera setup acquisition.vi" Type="VI" URL="../Camera/Camera setup acquisition.vi"/>
 		<Item Name="Coerce image size.vi" Type="VI" URL="../Camera/Coerce image size.vi"/>
+		<Item Name="Atmcd32d.dll" Type="Document" URL="../../../../../../../Program Files (x86)/BDS2006/Atmcd32d.dll"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
@@ -663,15 +664,10 @@
 			<Item Name="file number.ctl" Type="VI" URL="../../Glimpse core/Seq file v 1/file number.ctl"/>
 			<Item Name="Image to Display event.ctt" Type="VI" URL="../../Glimpse core/Image to Display event.ctt"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name="ATMCD32D.DLL" Type="Document" URL="../ATMCD32D.DLL"/>
-			<Item Name="andor camera properties.ctl" Type="VI" URL="../ixon camera/andor camera properties.ctl"/>
-			<Item Name="Atmcd32d.dll" Type="Document" URL="../../../../../../../Program Files (x86)/BDS2006/Atmcd32d.dll"/>
 			<Item Name="phidget21.dll" Type="Document" URL="phidget21.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="ATMCD32D.DLL" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/new-h-nu microscope software/data/ATMCD32D.DLL"/>
 			<Item Name="Save into new sequence.vi" Type="VI" URL="../../Glimpse core/Save into new sequence.vi"/>
-			<Item Name="ATMCD32D.DLL" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/ATMCD32D.DLL"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="New-h-nu microscope software LLB" Type="Source Distribution">
@@ -681,7 +677,7 @@
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
 				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/Users/gelles/Documents/LabVIEW Data/InstCache</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/15.0</Property>
 				<Property Name="Bld_excludedDirectory[3]" Type="Path">instr.lib</Property>
 				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">user.lib</Property>
@@ -698,7 +694,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/Users/gelles/Documents/Builds/New-h-nu microscope software/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{20962BE1-CFF0-4040-9753-9C2F39499FA2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FA91FF28-A9C8-46C9-818D-377419247CF3}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/stage controller.vi</Property>
@@ -731,7 +727,7 @@
 				<Property Name="Source[15].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[15].itemID" Type="Ref">/My Computer/Madlib.dll</Property>
 				<Property Name="Source[16].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[16].itemID" Type="Ref"></Property>
+				<Property Name="Source[16].itemID" Type="Ref">/My Computer/Atmcd32d.dll</Property>
 				<Property Name="Source[16].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/GLIMPSE Launcher.vi</Property>
