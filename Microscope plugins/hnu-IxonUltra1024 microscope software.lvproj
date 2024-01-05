@@ -17,9 +17,6 @@
 		<Item Name="phidgets knobs" Type="Folder" URL="../phidgets knobs">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="TTL Mad city stage" Type="Folder" URL="../TTL Mad city stage">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
 		<Item Name="h-nu shutters" Type="Folder" URL="../h-nu shutters">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
@@ -35,6 +32,13 @@
 		<Item Name="Seq file v 1" Type="Folder" URL="../../Glimpse core/Seq file v 1">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="TTL Mad city stage" Type="Folder">
+			<Item Name="HAL Stage close.vi" Type="VI" URL="../TTL Mad city stage/HAL Stage close.vi"/>
+			<Item Name="HAL stage init.vi" Type="VI" URL="../TTL Mad city stage/HAL stage init.vi"/>
+			<Item Name="Nano-drive set using NI.vi" Type="VI" URL="../TTL Mad city stage/Nano-drive set using NI.vi"/>
+			<Item Name="Nano-drive set xyz.vi" Type="VI" URL="../TTL Mad city stage/Nano-drive set xyz.vi"/>
+			<Item Name="Nano-drive.vi" Type="VI" URL="../TTL Mad city stage/Nano-drive.vi"/>
+		</Item>
 		<Item Name="Camera startup.vi" Type="VI" URL="../Camera/Camera startup.vi"/>
 		<Item Name="Glimpse Image Display Controller.vi" Type="VI" URL="../../Glimpse core/Glimpse Image Display Controller.vi"/>
 		<Item Name="GLIMPSE Launcher.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Launcher.vi"/>
@@ -49,6 +53,7 @@
 		<Item Name="wdapi1010.dll" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/wdapi1010.dll"/>
 		<Item Name="Microscope software version global.vi" Type="VI" URL="../Microscope software version global.vi"/>
 		<Item Name="atmcd32d.llb" Type="Document" URL="/&lt;userlib&gt;/atmcd32d.llb"/>
+		<Item Name="Atmcd32d.dll" Type="Document" URL="../../../../../../../Program Files (x86)/BDS2006/Atmcd32d.dll"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
@@ -523,7 +528,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Merge text metadata.vi" Type="VI" URL="../../Glimpse core/Merge text metadata.vi"/>
-			<Item Name="MCLib.dll" Type="Document" URL="../MCLib.dll"/>
 			<Item Name="Display merged still images.vi" Type="VI" URL="../../Glimpse core/Plug-ins/movie merge/Display merged still images.vi"/>
 			<Item Name="Merge images.vi" Type="VI" URL="../../Glimpse core/Plug-ins/movie merge/Merge images.vi"/>
 			<Item Name="Add overlay to merged image.vi" Type="VI" URL="../../Glimpse core/Plug-ins/movie merge/Add overlay to merged image.vi"/>
@@ -564,7 +568,6 @@
 			<Item Name="command stage controller.vi" Type="VI" URL="../Stage/command stage controller.vi"/>
 			<Item Name="acquire sequence to disk.vi" Type="VI" URL="../acquire sequence to disk.vi"/>
 			<Item Name="Flow cell controller globals.vi" Type="VI" URL="../fluid handling/Flow cell controller globals.vi"/>
-			<Item Name="wait 1 ms.vi" Type="VI" URL="../wait 1 ms.vi"/>
 			<Item Name="GLIMPSE Fetch Image.vi" Type="VI" URL="../../Glimpse core/GLIMPSE Fetch Image.vi"/>
 			<Item Name="Plug-in test Glimpse version.vi" Type="VI" URL="../../Glimpse core/Plug-in test Glimpse version.vi"/>
 			<Item Name="Glimpse set up to read sequence.vi" Type="VI" URL="../../Glimpse core/Glimpse set up to read sequence.vi"/>
@@ -666,11 +669,9 @@
 			<Item Name="phidget21.dll" Type="Document" URL="phidget21.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="andor camera properties.ctl" Type="VI" URL="../ixon camera/andor camera properties.ctl"/>
-			<Item Name="ATMCD32D.DLL" Type="Document" URL="../ATMCD32D.DLL"/>
 			<Item Name="Save into new sequence.vi" Type="VI" URL="../../Glimpse core/Save into new sequence.vi"/>
-			<Item Name="ATMCD32D.DLL" Type="Document" URL="../../../../../../../Program Files (x86)/Gelles Lab Software/new-h-nu microscope software/data/ATMCD32D.DLL"/>
-			<Item Name="Atmcd32d.dll" Type="Document" URL="../../../../../../../Program Files (x86)/BDS2006/Atmcd32d.dll"/>
+			<Item Name="wait 1 ms.vi" Type="VI" URL="../wait 1 ms.vi"/>
+			<Item Name="MCLib.dll" Type="Document" URL="../MCLib.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="h-nu ixonUltra1024 microscope software LLB" Type="Source Distribution">
@@ -696,7 +697,7 @@
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/h-nu ixon1024 microscope software/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{A652C461-5FC2-4CE6-8930-86DEA428C81F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6B659ECA-5DEB-491F-AE57-11DB18EC6E1C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/stage controller.vi</Property>
